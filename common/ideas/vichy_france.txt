@@ -1,0 +1,557 @@
+ideas = {
+	country = {
+
+		VIC_recovering_from_war = {
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+				tag = VIC
+				#has_government = fascism
+			}
+			
+			removal_cost = -1
+			
+			cancel = {
+				has_war = yes
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			cancel_if_invalid = yes
+			
+			modifier = {
+				ai_get_ally_desire_factor = -1000
+				conscription_factor = -0.5				
+				join_faction_tension = 1
+				consumer_goods_factor = 0.05        
+			}
+		}
+		
+		VIC_family_policy = {
+		
+			picture = generic_victors_of_ww1
+			allowed = {
+				tag = VIC
+				#has_government = fascism
+			}
+			
+			removal_cost = -1
+			allowed_civil_war = {
+				always = no
+			}
+			
+			
+			modifier = {
+				MONTHLY_POPULATION = 2
+				production_speed_buildings_factor = -0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+			}
+		
+		}
+		
+		VIC_grands_travaux = {
+			
+			allowed = {
+				original_tag = VIC
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_build_infrastructure
+
+			modifier = {
+				production_speed_infrastructure_factor = 0.25
+			}
+		}
+		
+		VIC_STO = {
+		
+			allowed = {
+				original_tag = VIC
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			cancel = {
+				GER = {
+					OR = {
+						exists = no
+						has_capitulated = yes
+						has_war = no
+					}
+				}
+			}
+			
+			removal_cost = -1
+			
+			picture = ger_rebuild_the_nation
+			
+			modifier = {
+				consumer_goods_factor = 0.1
+			}
+			
+		}
+	}
+	political_advisor = {
+
+		VIC_pierre_laval = {
+
+			picture = generic_political_advisor_europe_1
+			
+			allowed = {
+				tag = VIC
+			}
+			
+			traits = { backroom_backstabber }
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		VIC_marius_viple = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				tag = VIC
+			}
+			
+			traits = { popular_figurehead }
+		}
+
+		VIC_rene_bousquet = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				tag = VIC
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+	}
+	
+	tank_manufacturer = {
+
+		designer = yes
+	
+		# TECHNOLOGY
+		renault_vic = {
+		
+			picture = renault
+						
+			allowed = {
+				original_tag = VIC
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { heavy_tank_manufacturer }
+		}
+	
+		VIC_AMX = {
+		
+			picture = generic_tank_manufacturer_2
+
+			available = {
+				has_completed_focus = FRA_army_reform
+			}
+						
+			allowed = {
+				original_tag = VIC
+			}
+						
+			research_bonus = {
+				armor = 0.15
+			}
+			
+
+			traits = { fast_tank_manufacturer }
+		}
+	}
+	
+	materiel_manufacturer = {
+			
+		designer = yes
+		
+		vic_somua = {
+		
+			allowed = {
+				original_tag = VIC
+			}
+			
+			picture = somua
+
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+
+		}
+		
+		vic_mas = {
+						
+			allowed = {
+				original_tag = VIC
+			}
+			
+			picture = mas
+						
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+		}
+	
+		vic_schneider = {
+						
+			allowed = {
+				original_tag = VIC
+			}	
+
+			picture = schneider
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			traits = { artillery_manufacturer }
+		}
+	}
+	
+	aircraft_manufacturer = {
+			
+		designer = yes
+		
+		vic_morane_saulnier = {
+			
+			allowed = {
+				original_tag = VIC
+			}
+			
+			picture = morane_saulnier
+			
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { light_aircraft_manufacturer }
+		}
+		
+		vic_bloch = {
+						
+			allowed = {
+				original_tag = VIC
+			}
+			
+			picture = bloch
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { medium_aircraft_manufacturer }
+		}
+		
+		vic_amiot = {
+						
+			allowed = {
+				original_tag = VIC
+			}
+			
+			picture = amiot
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { heavy_aircraft_manufacturer }
+		}
+		
+		vic_levasseur = {
+						
+			allowed = {
+				original_tag = VIC
+			}
+			
+			picture = levasseur
+						
+			research_bonus = {
+				air_equipment = 0.15
+			}
+			
+			traits = { naval_aircraft_manufacturer }
+		}
+		
+	}
+	naval_manufacturer = {
+
+		designer = yes
+		
+		vic_fcm = {
+						
+			allowed = {
+				original_tag = VIC
+			}
+			
+			picture = fcm
+						
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+		}
+	}
+	
+	industrial_concern = {	
+		
+		vic_famh = {
+						
+			allowed = {
+				original_tag = VIC
+			}
+			
+			picture = famh
+						
+			research_bonus = {
+				industry = 0.15
+			}
+			
+			traits = { industrial_concern }
+		}
+	}
+
+	theorist = {
+
+		VIC_charles_huntziger = {
+					
+					
+			allowed = {
+				tag = VIC
+			}
+			
+			picture = generic_army_europe_4
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+
+		VIC_lucien_lacaze = {
+					
+					
+			allowed = {
+				tag = VIC
+			}
+			
+			picture = generic_navy_europe_1
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		VIC_eugene_bridoux = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				tag = VIC
+			}
+			
+			traits = { army_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_maxime_weygand = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				tag = VIC
+			}
+			
+			traits = { army_chief_defensive_3 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		VIC_jean_marie_bergeret = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				tag = VIC
+			}
+			
+
+			
+			traits = { air_chief_safety_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_jean_romatet = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				tag = VIC
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		VIC_jean_francois_darlan = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				tag = VIC
+			}
+			
+
+			
+			traits = { navy_chief_maneuver_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_jean_marie_abrial = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				tag = VIC
+			}
+			
+
+			
+			traits = { navy_anti_submarine_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	high_command = {
+
+
+		VIC_jean_francois_jannekeyn = {
+			
+			picture = generic_air_europe_1
+			
+			allowed = {
+				tag = VIC
+			}
+			
+
+			
+			traits = { air_naval_strike_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		VIC_jean_de_laborde = {
+			
+			picture = generic_navy_europe_2
+
+			allowed = {
+				tag = VIC
+			}
+			
+
+			
+			traits = { navy_capital_ship_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_marcel_bruno_gensoul = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				tag = VIC
+			}
+			
+
+			
+			traits = { navy_screen_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		VIC_pierre_le_gloan = {
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				tag = VIC
+			}
+			
+
+			
+			traits = { air_air_superiority_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+}

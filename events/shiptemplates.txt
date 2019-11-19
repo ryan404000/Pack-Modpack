@@ -1,0 +1,1782 @@
+﻿add_namespace = capital_ship
+
+country_event = {
+	id = capital_ship.1
+	title = capital_ship.1.t
+	desc = capital_ship.1.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = capital_ship.1.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "King George V Class"
+			type = nrm_ship_hull_capital_3
+			name_group = ENG_BB_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_3
+				fixed_ship_engine_slot = nrm_capital_engine_S2_110
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_4
+				fixed_ship_armor_slot = nrm_capital_armour_15_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_capital_2h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				fixed_ship_battery_slot = nrm_capital_battery_14_2_a4x2_2x1
+				fixed_ship_secondary_slot = nrm_capital_secondary_DP_5h_2_x08
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_DP_5h_2_x08
+				custom_slot_1 = nrm_support_capital_AA_2
+				custom_slot_2 = nrm_support_capital_AA_2
+				custom_slot_3 = nrm_support_capital_HAA_2
+				custom_slot_4 = nrm_support_capital_HAA_2
+				custom_slot_5 = nrm_support_capital_HAA_2
+				custom_slot_6 = nrm_support_capital_AA_2
+			}
+		}
+	}
+
+	option = {
+		name = capital_ship.1.b
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "King George V Class"
+			type = nrm_ship_hull_capital_3
+			name_group = ENG_BB_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_3
+				fixed_ship_engine_slot = nrm_capital_engine_S2_110
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_4
+				fixed_ship_armor_slot = nrm_capital_armour_15_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_capital_2h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				fixed_ship_battery_slot = nrm_capital_battery_14_2_4x3
+				fixed_ship_secondary_slot = nrm_capital_secondary_DP_5h_2_x08
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_DP_5h_2_x08
+				custom_slot_1 = nrm_support_capital_AA_2
+				custom_slot_2 = nrm_support_capital_AA_2
+				custom_slot_3 = nrm_support_capital_HAA_2
+				custom_slot_4 = nrm_support_capital_HAA_2
+				custom_slot_5 = nrm_support_capital_HAA_2
+				custom_slot_6 = nrm_support_capital_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = capital_ship.2
+	title = capital_ship.2.t
+	desc = capital_ship.2.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = capital_ship.2.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Lion Class"
+			type = nrm_ship_hull_capital_4
+			name_group = ENG_BB_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_4
+				fixed_ship_engine_slot = nrm_capital_engine_S3_130
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_4
+				fixed_ship_armor_slot = nrm_capital_armour_15_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_capital_1h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				fixed_ship_battery_slot = nrm_capital_battery_16_2_3x3
+				fixed_ship_secondary_slot = nrm_capital_secondary_DP_5h_2_x08
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_DP_5h_2_x08
+				custom_slot_1 = nrm_support_capital_AA_2
+				custom_slot_2 = nrm_support_capital_AA_2
+				custom_slot_3 = nrm_support_capital_HAA_2
+				custom_slot_4 = nrm_support_capital_HAA_2
+				custom_slot_5 = nrm_support_capital_HAA_2
+				custom_slot_6 = nrm_support_capital_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = capital_ship.3
+	title = capital_ship.3.t
+	desc = capital_ship.3.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = capital_ship.3.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Bismarck Class"
+			type = nrm_ship_hull_capital_3
+			name_group = GER_BB_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_3
+				fixed_ship_engine_slot = nrm_capital_engine_S2_160
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_2
+				fixed_ship_armor_slot = nrm_capital_armour_13_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_capital_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_capital_battery_15_2_2x4
+				fixed_ship_secondary_slot = nrm_capital_secondary_SB_6_2_x12
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_HA_4_1_x16
+				custom_slot_1 = empty
+				custom_slot_2 = nrm_support_capital_AA_1
+				custom_slot_3 = nrm_support_capital_HAA_1
+				custom_slot_4 = nrm_support_capital_AA_2
+				custom_slot_5 = empty
+				custom_slot_6 = empty
+			}
+		}
+	}
+}
+
+country_event = {
+	id = capital_ship.4
+	title = capital_ship.4.t
+	desc = capital_ship.4.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = capital_ship.4.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "North Carolina Class"
+			type = nrm_ship_hull_capital_3
+			name_group = USA_BB_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_3
+				fixed_ship_engine_slot = nrm_capital_engine_S2_120
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_4
+				fixed_ship_armor_slot = nrm_capital_armour_12_3
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_capital_3h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				fixed_ship_battery_slot = nrm_capital_battery_16_2_3x3
+				fixed_ship_secondary_slot = nrm_capital_secondary_DP_5_2_x12
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_DP_5_2_x08
+				custom_slot_1 = nrm_support_capital_AA_2
+				custom_slot_2 = nrm_support_capital_AA_2
+				custom_slot_3 = nrm_support_capital_HAA_1
+				custom_slot_4 = nrm_support_capital_HAA_1
+				custom_slot_5 = nrm_support_capital_HAA_1
+				custom_slot_6 = nrm_support_capital_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = capital_ship.5
+	title = capital_ship.5.t
+	desc = capital_ship.5.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = capital_ship.5.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "South Dakota Class"
+			type = nrm_ship_hull_capital_3
+			name_group = USA_BB_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_capital_3
+				fixed_ship_engine_slot = nrm_capital_engine_S2_130
+				fixed_ship_armor_layout_slot = nrm_armour_layout_BB_2
+				fixed_ship_armor_slot = nrm_capital_armour_13_3
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_capital_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				fixed_ship_battery_slot = nrm_capital_battery_16_2_3x3
+				fixed_ship_secondary_slot = nrm_capital_secondary_DP_5_2_x08
+				fixed_ship_tertiary_slot = nrm_capital_tertiary_DP_5_2_x08
+				custom_slot_1 = nrm_support_capital_AA_2
+				custom_slot_2 = nrm_support_capital_AA_2
+				custom_slot_3 = nrm_support_capital_HAA_1
+				custom_slot_4 = nrm_support_capital_HAA_1
+				custom_slot_5 = nrm_support_capital_HAA_1
+				custom_slot_6 = nrm_support_capital_AA_2
+			}
+		}
+	}
+}
+
+add_namespace = cruiser_ship
+
+country_event = {
+	id = cruiser_ship.1
+	title = cruiser_ship.1.t
+	desc = cruiser_ship.1.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = cruiser_ship.1.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Gloucester Class"
+			type = nrm_ship_hull_cruiser_3
+			name_group = ENG_CL_HISTORICAL
+			parent_version = 0
+			role_icon_index = 2
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_3
+				fixed_ship_engine_slot = nrm_cruiser_engine_S2_080
+				fixed_ship_armor_layout_slot = nrm_armour_layout_3
+				fixed_ship_armor_slot = nrm_cruiser_armour_04_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_cruiser_3h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_6_3_x12
+				fixed_ship_tertiary_slot = nrm_cruiser_tertiary_DP_4_2_x08
+				custom_slot_1 = nrm_support_cruiser_FP_2
+				custom_slot_2 = nrm_support_cruiser_TRP_21_2_x06
+				custom_slot_3 = nrm_support_cruiser_HAA_2
+				custom_slot_4 = nrm_support_cruiser_HAA_2
+				custom_slot_5 = nrm_support_cruiser_AA_2
+				custom_slot_6 = nrm_support_cruiser_SNR_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cruiser_ship.2
+	title = cruiser_ship.2.t
+	desc = cruiser_ship.2.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = cruiser_ship.2.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Edinburgh Class"
+			type = nrm_ship_hull_cruiser_3
+			name_group = ENG_CL_HISTORICAL
+			parent_version = 0
+			role_icon_index = 2
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_3
+				fixed_ship_engine_slot = nrm_cruiser_engine_S2_080
+				fixed_ship_armor_layout_slot = nrm_armour_layout_4
+				fixed_ship_armor_slot = nrm_cruiser_armour_04h_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_cruiser_3h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_6_3_x12
+				fixed_ship_tertiary_slot = nrm_cruiser_tertiary_DP_4_2_x12
+				custom_slot_1 = nrm_support_cruiser_FP_2
+				custom_slot_2 = nrm_support_cruiser_TRP_21_2_x06
+				custom_slot_3 = nrm_support_cruiser_HAA_2
+				custom_slot_4 = nrm_support_cruiser_HAA_2
+				custom_slot_5 = nrm_support_cruiser_AA_2
+				custom_slot_6 = nrm_support_cruiser_SNR_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cruiser_ship.3
+	title = cruiser_ship.3.t
+	desc = cruiser_ship.3.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = cruiser_ship.3.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Crown Colony Class"
+			type = nrm_ship_hull_cruiser_4
+			name_group = ENG_CL_HISTORICAL
+			parent_version = 0
+			role_icon_index = 2
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_4
+				fixed_ship_engine_slot = nrm_cruiser_engine_S3_080
+				fixed_ship_armor_layout_slot = nrm_armour_layout_4
+				fixed_ship_armor_slot = nrm_cruiser_armour_04h_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_cruiser_3h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_6_3_x12
+				fixed_ship_tertiary_slot = nrm_cruiser_tertiary_DP_4_2_x08
+				custom_slot_1 = nrm_support_cruiser_FP_3
+				custom_slot_2 = nrm_support_cruiser_TRP_21_2_x06
+				custom_slot_3 = nrm_support_cruiser_HAA_2
+				custom_slot_4 = nrm_support_cruiser_HAA_2
+				custom_slot_5 = nrm_support_cruiser_AA_2
+				custom_slot_6 = nrm_support_cruiser_SNR_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cruiser_ship.4
+	title = cruiser_ship.4.t
+	desc = cruiser_ship.4.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = cruiser_ship.4.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "St Louis Class"
+			type = nrm_ship_hull_cruiser_4
+			name_group = USA_CL_HISTORICAL
+			parent_version = 0
+			role_icon_index = 2
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_3
+				fixed_ship_engine_slot = nrm_cruiser_engine_S2_100
+				fixed_ship_armor_layout_slot = nrm_armour_layout_3
+				fixed_ship_armor_slot = nrm_cruiser_armour_04h_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_cruiser_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_6_3_x15
+				fixed_ship_tertiary_slot = nrm_cruiser_tertiary_DP_5_2_x08
+				custom_slot_1 = nrm_support_cruiser_FP_1
+				custom_slot_2 = empty
+				custom_slot_3 = nrm_support_cruiser_AA_2
+				custom_slot_4 = nrm_support_cruiser_AA_2
+				custom_slot_5 = empty
+				custom_slot_6 = empty
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cruiser_ship.5
+	title = cruiser_ship.5.t
+	desc = cruiser_ship.5.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = cruiser_ship.5.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Baltimore Class"
+			type = nrm_ship_hull_cruiser_4
+			name_group = USA_CA_HISTORICAL
+			parent_version = 0
+			role_icon_index = 2
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_4
+				fixed_ship_engine_slot = nrm_cruiser_engine_S3_120
+				fixed_ship_armor_layout_slot = nrm_armour_layout_4
+				fixed_ship_armor_slot = nrm_cruiser_armour_06_1
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_cruiser_4
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_6
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_8_3_x09
+				fixed_ship_tertiary_slot = nrm_cruiser_tertiary_DP_5_2_x12
+				custom_slot_1 = nrm_support_cruiser_FP_2
+				custom_slot_2 = nrm_support_cruiser_AA_2
+				custom_slot_3 = nrm_support_cruiser_HAA_2
+				custom_slot_4 = nrm_support_cruiser_HAA_2
+				custom_slot_5 = nrm_support_cruiser_AA_2
+				custom_slot_6 = nrm_support_cruiser_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cruiser_ship.6
+	title = cruiser_ship.6.t
+	desc = cruiser_ship.6.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = cruiser_ship.6.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Cleveland Class"
+			type = nrm_ship_hull_cruiser_4
+			name_group = USA_CL_HISTORICAL
+			parent_version = 0
+			role_icon_index = 2
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_4
+				fixed_ship_engine_slot = nrm_cruiser_engine_S3_100
+				fixed_ship_armor_layout_slot = nrm_armour_layout_4
+				fixed_ship_armor_slot = nrm_cruiser_armour_04h_2
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_cruiser_4
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_6
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_6_3_x12
+				fixed_ship_tertiary_slot = nrm_cruiser_tertiary_DP_5_2_x12
+				custom_slot_1 = nrm_support_cruiser_FP_2
+				custom_slot_2 = nrm_support_cruiser_AA_2
+				custom_slot_3 = nrm_support_cruiser_HAA_2
+				custom_slot_4 = nrm_support_cruiser_HAA_2
+				custom_slot_5 = nrm_support_cruiser_AA_2
+				custom_slot_6 = nrm_support_cruiser_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cruiser_ship.7
+	title = cruiser_ship.7.t
+	desc = cruiser_ship.7.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = cruiser_ship.7.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Dido Class"
+			type = nrm_ship_hull_cruiser_3
+			name_group = ENG_CLAA_HISTORICAL
+			parent_version = 0
+			role_icon_index = 2
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_3
+				fixed_ship_engine_slot = nrm_cruiser_engine_S2_065
+				fixed_ship_armor_layout_slot = nrm_armour_layout_3
+				fixed_ship_armor_slot = nrm_cruiser_armour_03_1
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_cruiser_3h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_6
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_5h_2_x10
+				fixed_ship_tertiary_slot = empty
+				custom_slot_1 = nrm_support_cruiser_AA_2
+				custom_slot_2 = nrm_support_cruiser_TRP_21_2_x06
+				custom_slot_3 = nrm_support_cruiser_HAA_2
+				custom_slot_4 = nrm_support_cruiser_HAA_2
+				custom_slot_5 = nrm_support_cruiser_AA_2
+				custom_slot_6 = nrm_support_cruiser_SNR_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = cruiser_ship.8
+	title = cruiser_ship.8.t
+	desc = cruiser_ship.8.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = cruiser_ship.8.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Atlanta Class"
+			type = nrm_ship_hull_cruiser_3
+			name_group = USA_CLAA_HISTORICAL
+			parent_version = 0
+			role_icon_index = 2
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_cruiser_3
+				fixed_ship_engine_slot = nrm_cruiser_engine_S2_075
+				fixed_ship_armor_layout_slot = nrm_armour_layout_3
+				fixed_ship_armor_slot = nrm_cruiser_armour_03h_1
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_cruiser_3h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_6
+				fixed_ship_fire_control_system_aa_slot = empty
+				fixed_ship_battery_slot = nrm_cruiser_battery_DP_5_2_x12
+				fixed_ship_tertiary_slot = nrm_cruiser_tertiary_DP_5_2_x04
+				custom_slot_1 = nrm_support_cruiser_AA_2
+				custom_slot_2 = nrm_support_cruiser_TRP_21_2_x06
+				custom_slot_3 = nrm_support_cruiser_HAA_2
+				custom_slot_4 = nrm_support_cruiser_HAA_2
+				custom_slot_5 = nrm_support_cruiser_AA_2
+				custom_slot_6 = nrm_support_cruiser_SNR_3
+			}
+		}
+	}
+}
+
+add_namespace = screen_ship
+
+country_event = {
+	id = screen_ship.1
+	title = screen_ship.1.t
+	desc = screen_ship.1.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.1.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Tribal Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = ENG_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_045
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_5_2_x8
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_destroyer_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_3
+				fixed_ship_fire_control_system_aa_slot = empty
+				custom_slot_1 = nrm_support_destroyer_ASW_1
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_4 = nrm_support_destroyer_HAA_2
+				custom_slot_5 = nrm_support_destroyer_AA_2
+				custom_slot_6 = nrm_support_destroyer_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.2
+	title = screen_ship.2.t
+	desc = screen_ship.2.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.2.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "I Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = ENG_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_035
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_5_2_x4
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_destroyer_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_MS_1
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x5
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x5
+				custom_slot_5 = nrm_support_destroyer_AA_2
+				custom_slot_6 = nrm_support_destroyer_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.3
+	title = screen_ship.3.t
+	desc = screen_ship.3.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.3.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "J/K/N Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = ENG_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_045
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_5_2_x6
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_2
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_AA_2
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x5
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x5
+				custom_slot_5 = nrm_support_destroyer_HAA_2
+				custom_slot_6 = nrm_support_destroyer_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.4
+	title = screen_ship.4.t
+	desc = screen_ship.4.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.4.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "L/M Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = ENG_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_050
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_2_x6
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_2h
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ASW_2
+				custom_slot_2 = nrm_support_destroyer_HAA_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_5 = nrm_support_destroyer_HAA_2
+				custom_slot_6 = nrm_support_destroyer_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.5
+	title = screen_ship.5.t
+	desc = screen_ship.5.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.5.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "War Emergency Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = ENG_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_040
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_4_3_x4
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_2
+				fixed_ship_radar_slot = nrm_radar_fc_4
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_2
+				custom_slot_1 = nrm_support_destroyer_ASW_3
+				custom_slot_2 = nrm_support_destroyer_HAA_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_3_x4
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_3_x4
+				custom_slot_5 = nrm_support_destroyer_HAA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.6
+	title = screen_ship.6.t
+	desc = screen_ship.6.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.6.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Weapon Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = ENG_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_040
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_HA_4_3_x4
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_2
+				fixed_ship_radar_slot = nrm_radar_fc_4
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_2
+				custom_slot_1 = nrm_support_destroyer_AA_3
+				custom_slot_2 = nrm_support_destroyer_HAA_3
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_3_x5
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_3_x5
+				custom_slot_5 = nrm_support_destroyer_HAA_3
+				custom_slot_6 = nrm_support_destroyer_ASWP_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.7
+	title = screen_ship.7.t
+	desc = screen_ship.7.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.7.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Battle Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = ENG_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_050
+				fixed_ship_sonar_slot = nrm_sonar_4
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_3_x5
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_2
+				fixed_ship_radar_slot = nrm_radar_fc_6
+				fixed_ship_fire_control_system_slot = nrm_fire_control_7
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_4
+				custom_slot_1 = nrm_support_destroyer_AA_3
+				custom_slot_2 = nrm_support_destroyer_HAA_3
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_3_x5
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_3_x5
+				custom_slot_5 = nrm_support_destroyer_HAA_3
+				custom_slot_6 = nrm_support_destroyer_ASWP_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.8
+	title = screen_ship.8.t
+	desc = screen_ship.8.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.8.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Hunt Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = ENG_DE_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_020
+				fixed_ship_sonar_slot = nrm_sonar_4
+				fixed_ship_battery_slot = nrm_destroyer_battery_HA_4_2_x4
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_2
+				fixed_ship_radar_slot = nrm_radar_1
+				fixed_ship_fire_control_system_slot = nrm_fire_control_3
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ASW_2
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_ASW_2
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x2
+				custom_slot_5 = nrm_support_destroyer_HAA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.9
+	title = screen_ship.9.t
+	desc = screen_ship.9.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.9.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Sims Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = USA_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_050
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_2_x5
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ASW_2
+				custom_slot_2 = nrm_support_destroyer_AA_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_S_2_x8
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_5 = nrm_support_destroyer_HAA_1
+				custom_slot_6 = nrm_support_destroyer_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.10
+	title = screen_ship.10.t
+	desc = screen_ship.10.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.10.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Benson Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = USA_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_050
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_2_x5
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ASW_2
+				custom_slot_2 = nrm_support_destroyer_AA_3
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_5 = nrm_support_destroyer_HAA_2
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.11
+	title = screen_ship.11.t
+	desc = screen_ship.11.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.11.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Gleaves Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = USA_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_050
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_2_x4
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_2
+				custom_slot_1 = nrm_support_destroyer_ASW_2
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_4 = nrm_support_destroyer_HAA_2
+				custom_slot_5 = nrm_support_destroyer_HAA_2
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.12
+	title = screen_ship.12.t
+	desc = screen_ship.12.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.12.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Fletcher Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = USA_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_060
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_2_x5
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_3h
+				fixed_ship_radar_slot = nrm_radar_fc_4
+				fixed_ship_fire_control_system_slot = nrm_fire_control_6
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_3
+				custom_slot_1 = nrm_support_destroyer_ASW_3
+				custom_slot_2 = nrm_support_destroyer_HAA_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_3_x5
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_3_x5
+				custom_slot_5 = nrm_support_destroyer_HAA_2
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.13
+	title = screen_ship.13.t
+	desc = screen_ship.13.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.13.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Gearing Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = USA_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_060
+				fixed_ship_sonar_slot = nrm_sonar_4
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_3_x6
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_3h
+				fixed_ship_radar_slot = nrm_radar_fc_6
+				fixed_ship_fire_control_system_slot = nrm_fire_control_7
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_4
+				custom_slot_1 = nrm_support_destroyer_ASW_3
+				custom_slot_2 = nrm_support_destroyer_HAA_3
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_3_x5
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_3_x5
+				custom_slot_5 = nrm_support_destroyer_HAA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.14
+	title = screen_ship.14.t
+	desc = screen_ship.14.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.14.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Evarts Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = USA_DE_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_D2_005
+				fixed_ship_sonar_slot = nrm_sonar_4
+				fixed_ship_battery_slot = nrm_destroyer_battery_HA_3_3_x3
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_4
+				fixed_ship_radar_slot = nrm_radar_1
+				fixed_ship_fire_control_system_slot = nrm_fire_control_2
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ASW_3
+				custom_slot_2 = nrm_support_destroyer_ASW_3
+				custom_slot_3 = nrm_support_destroyer_ASW_3
+				custom_slot_4 = nrm_support_destroyer_AA_3
+				custom_slot_5 = nrm_support_destroyer_HAA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.15
+	title = screen_ship.15.t
+	desc = screen_ship.15.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.15.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Buckley Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = USA_DE_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_015
+				fixed_ship_sonar_slot = nrm_sonar_4
+				fixed_ship_battery_slot = nrm_destroyer_battery_HA_3_3_x3
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_4
+				fixed_ship_radar_slot = nrm_radar_1
+				fixed_ship_fire_control_system_slot = nrm_fire_control_2
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ASW_3
+				custom_slot_2 = nrm_support_destroyer_ASW_3
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_3_x3
+				custom_slot_4 = nrm_support_destroyer_AA_3
+				custom_slot_5 = nrm_support_destroyer_HAA_3
+				custom_slot_6 = nrm_support_destroyer_ASWP_1
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.16
+	title = screen_ship.16.t
+	desc = screen_ship.16.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.16.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Kagerou Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = JAP_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_055
+				fixed_ship_sonar_slot = nrm_sonar_2
+				fixed_ship_battery_slot = nrm_destroyer_battery_5_3_x6
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_3
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_4
+				fixed_ship_fire_control_system_aa_slot = empty
+				custom_slot_1 = nrm_support_destroyer_ASW_1
+				custom_slot_2 = nrm_support_destroyer_AA_3
+				custom_slot_3 = nrm_support_destroyer_TRP_24_C_3_x4
+				custom_slot_4 = nrm_support_destroyer_TRP_24_C_3_x4
+				custom_slot_5 = nrm_support_destroyer_AA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.17
+	title = screen_ship.17.t
+	desc = screen_ship.17.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.17.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Yugumo Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = JAP_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_055
+				fixed_ship_sonar_slot = nrm_sonar_2
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_2_x6
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_3
+				fixed_ship_radar_slot = nrm_radar_1
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ASW_1
+				custom_slot_2 = nrm_support_destroyer_AA_3
+				custom_slot_3 = nrm_support_destroyer_TRP_24_C_3_x4
+				custom_slot_4 = nrm_support_destroyer_TRP_24_C_3_x4
+				custom_slot_5 = nrm_support_destroyer_AA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.18
+	title = screen_ship.18.t
+	desc = screen_ship.18.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.18.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Shimakaze Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = JAP_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_075
+				fixed_ship_sonar_slot = nrm_sonar_2
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_5_2_x6
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_3
+				fixed_ship_radar_slot = nrm_radar_2
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ASW_1
+				custom_slot_2 = nrm_support_destroyer_TRP_24_C_3_x5
+				custom_slot_3 = nrm_support_destroyer_TRP_24_C_3_x5
+				custom_slot_4 = nrm_support_destroyer_TRP_24_C_3_x5
+				custom_slot_5 = nrm_support_destroyer_AA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.19
+	title = screen_ship.19.t
+	desc = screen_ship.19.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.19.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Akizuki Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = JAP_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_055
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_4_3_x8
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_3
+				fixed_ship_radar_slot = nrm_radar_fc_5
+				fixed_ship_fire_control_system_slot = nrm_fire_control_6
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_3
+				custom_slot_1 = nrm_support_destroyer_ASW_2
+				custom_slot_2 = nrm_support_destroyer_AA_3
+				custom_slot_3 = nrm_support_destroyer_AA_3
+				custom_slot_4 = nrm_support_destroyer_TRP_24_C_3_x4
+				custom_slot_5 = nrm_support_destroyer_AA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.20
+	title = screen_ship.20.t
+	desc = screen_ship.20.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.20.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Matsu Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = JAP_DE_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_020
+				fixed_ship_sonar_slot = nrm_sonar_4
+				fixed_ship_battery_slot = nrm_destroyer_battery_HA_5_3_x3
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_3
+				fixed_ship_radar_slot = nrm_radar_fc_4
+				fixed_ship_fire_control_system_slot = nrm_fire_control_3
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_2
+				custom_slot_1 = nrm_support_destroyer_ASW_2
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_AA_3
+				custom_slot_4 = nrm_support_destroyer_TRP_24_C_3_x4
+				custom_slot_5 = nrm_support_destroyer_AA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.21
+	title = screen_ship.21.t
+	desc = screen_ship.21.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.21.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Soldati Class"
+			type = nrm_ship_hull_destroyer_2
+			name_group = ITA_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_2
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_050
+				fixed_ship_sonar_slot = nrm_sonar_4
+				fixed_ship_battery_slot = nrm_destroyer_battery_5_2_x5
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_1h
+				fixed_ship_radar_slot = nrm_radar_1
+				fixed_ship_fire_control_system_slot = nrm_fire_control_3
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ML_1
+				custom_slot_2 = nrm_support_destroyer_AA_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x3
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x3
+				custom_slot_5 = nrm_support_destroyer_AA_2
+				custom_slot_6 = nrm_support_destroyer_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.22
+	title = screen_ship.22.t
+	desc = screen_ship.22.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.22.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Commandanti Medaglie d'Oro Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = ITA_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_060
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_5h_2_x4
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_3
+				fixed_ship_range_slot = nrm_range_destroyer_2
+				fixed_ship_radar_slot = nrm_radar_1
+				fixed_ship_fire_control_system_slot = nrm_fire_control_3
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ML_1
+				custom_slot_2 = nrm_support_destroyer_HAA_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x3
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x3
+				custom_slot_5 = nrm_support_destroyer_HAA_2
+				custom_slot_6 = empty
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.23
+	title = screen_ship.23.t
+	desc = screen_ship.23.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.23.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Ariete Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = ITA_DE_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S3_020
+				fixed_ship_sonar_slot = nrm_sonar_3
+				fixed_ship_battery_slot = nrm_destroyer_battery_DP_4_2_x3
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_destroyer_1
+				fixed_ship_radar_slot = nrm_radar_1
+				fixed_ship_fire_control_system_slot = nrm_fire_control_3
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ML_1
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x3
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x3
+				custom_slot_5 = nrm_support_destroyer_AA_3
+				custom_slot_6 = nrm_support_destroyer_AA_3
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.24
+	title = screen_ship.24.t
+	desc = screen_ship.24.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.24.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Zerstörer 1936A Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = GER_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_S2_070
+				fixed_ship_sonar_slot = nrm_sonar_2
+				fixed_ship_battery_slot = nrm_destroyer_battery_6_2_x5
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_2
+				fixed_ship_range_slot = nrm_range_destroyer_1
+				fixed_ship_radar_slot = empty
+				fixed_ship_fire_control_system_slot = nrm_fire_control_3
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_1
+				custom_slot_1 = nrm_support_destroyer_ML_1
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_2_x4
+				custom_slot_5 = nrm_support_destroyer_HAA_1
+				custom_slot_6 = nrm_support_destroyer_AA_2
+			}
+		}
+	}
+}
+
+country_event = {
+	id = screen_ship.25
+	title = screen_ship.25.t
+	desc = screen_ship.25.d
+	
+	picture = "GFX_report_event_merchant_ship_01"
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = screen_ship.25.a
+		ai_chance = {
+			factor = 0
+
+		}
+
+		create_equipment_variant = {
+			name = "Zerstörer 1942 Class"
+			type = nrm_ship_hull_destroyer_3
+			name_group = GER_DD_HISTORICAL
+			parent_version = 0
+			role_icon_index = 1
+			modules = {
+				fixed_ship_hullform_slot = nrm_ship_hullform_destroyer_3
+				fixed_ship_engine_slot = nrm_destroyer_engine_D2_060
+				fixed_ship_sonar_slot = nrm_sonar_4
+				fixed_ship_battery_slot = nrm_destroyer_battery_5_3_x4
+				fixed_ship_damagecontrol_slot = nrm_damagecontrol_4
+				fixed_ship_range_slot = nrm_range_destroyer_4
+				fixed_ship_radar_slot = nrm_radar_2
+				fixed_ship_fire_control_system_slot = nrm_fire_control_5
+				fixed_ship_fire_control_system_aa_slot = nrm_fire_control_aa_2
+				custom_slot_1 = nrm_support_destroyer_ML_1
+				custom_slot_2 = nrm_support_destroyer_ASW_2
+				custom_slot_3 = nrm_support_destroyer_TRP_21_C_3_x3
+				custom_slot_4 = nrm_support_destroyer_TRP_21_C_3_x3
+				custom_slot_5 = nrm_support_destroyer_HAA_1
+				custom_slot_6 = nrm_support_destroyer_AA_2
+			}
+		}
+	}
+}

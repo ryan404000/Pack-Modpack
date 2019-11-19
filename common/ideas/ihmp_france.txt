@@ -1,0 +1,31 @@
+ideas = {
+
+	country = {
+
+		VIC_neutrality = {
+
+			picture = FRA_matignon_agreements
+
+			allowed = {
+				original_tag = VIC
+				has_government = fascism
+			}
+
+			cancel = {
+				has_war = yes
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			cancel_if_invalid = yes
+
+			modifier = {
+				ai_get_ally_desire_factor = -200
+				conscription_factor = -0.5
+				join_faction_tension = 1
+			}
+		}
+	}
+}

@@ -1,0 +1,44 @@
+﻿#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+l_spanish:
+
+ etgi_ideas:0 "National Character"
+ 
+ etgi_ideas_women:0 "Legal Status of Women"
+ etgi_laws_women_d:0 "Traditional Roles"
+ etgi_laws_women_1:0 "Limited Rights"
+ etgi_laws_women_2:0 "Enforced Patriarchy"
+ etgi_laws_women_3:0 "Total Equality"
+ 
+ etgi_ideas_social_balance:0 "Social Order"
+ etgi_laws_social_balance_d:0 "Cultural Norms"
+ etgi_laws_social_balance_1:0 "Hierarchy"
+ etgi_laws_social_balance_2:0 "Revolutionary Minds"
+ etgi_laws_social_balance_3:0 "Melting Pot"
+ etgi_laws_social_balance_4:0 "The Greater Good"
+ 
+ etgi_ideas_war_mentality:0 "Justification for War"
+ etgi_laws_war_mentality_d:0 "Lessons of History"
+ etgi_laws_war_mentality_1:0 "Ideological Struggle"
+ etgi_laws_war_mentality_2:0 "Brinkmanship"
+ etgi_laws_war_mentality_3:0 "Global Order"
+ 
+ etgi_ideas_foreign_relations:0 "Foreign Relations"
+ etgi_laws_foreign_relations_d:0 "Sphere of Influence"
+ etgi_laws_foreign_relations_1:0 "Exchange of Ideas"
+ etgi_laws_foreign_relations_2:0 "International Trade"
+ etgi_laws_foreign_relations_3:0 "Closed Doors"
+ 
+ etgi_ideas_internal_security:0 "Law Enforcement"
+ etgi_laws_internal_security_d:0 "Balanced Approach"
+ etgi_laws_internal_security_1:0 "Order Above All"
+ etgi_laws_internal_security_2:0 "Individual Rights"
+ 
+ etgi_ideas_leadership_structure:0 "The State's Mandate"
+ etgi_laws_leadership_structure_d:0 "Power and Politics"
+ etgi_laws_leadership_structure_1:0 "Personality Cult"
+ etgi_laws_leadership_structure_2:0 "Secular Institutions"
+ etgi_laws_leadership_structure_3:0 "Divine Inspiration"
+ etgi_laws_leadership_structure_4:0 "Will of the People"
+ 
+#####---------------------------------------------------------------------> End

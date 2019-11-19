@@ -1,0 +1,34 @@
+################
+##### FRA ######
+################
+
+FRA_vichy_france = {
+	
+	allowed = {
+		original_tag = VIC
+	}
+}
+
+FRA_free_france = {
+	
+	allowed = {
+		original_tag = FRA
+	}
+}
+
+FRA_buy_planes = {
+
+	icon = generic_air
+	
+	allowed = {
+		tag = FRA
+	}
+	
+	visible = {
+		USA = { 
+			exists = yes 
+			has_war = no
+		}
+
+	}
+}

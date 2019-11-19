@@ -1,0 +1,32 @@
+state={
+	id=802
+	name="STATE_802"
+	provinces={
+		7014 12076 
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		add_core_of = PRC
+		victory_points = {
+			7014 10 
+		}
+		buildings = {
+			infrastructure = 5
+			steel_refinery = 1
+			industrial_complex = 2
+			7014 = {
+				naval_base = 6
+				coastal_bunker = 1
+				bunker = 1
+
+			}
+
+		}
+		
+		set_demilitarized_zone = yes
+	}
+	manpower=5000000
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

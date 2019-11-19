@@ -1,0 +1,81 @@
+focus_tree = {
+	id = garbage_focus  #put there focuses to delete but used somewhere in the files. Removed when the relevent files are found and modified.
+
+	country = {
+		factor = 0
+		
+
+		
+	}
+	
+	default = no
+	
+	focus = {
+		id = USA_honor_the_confederacy
+		icon = GFX_focus_usa_honor_the_confederacy
+		x = -4
+		y = 3
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		available = {
+			OR = {
+				has_civil_war = yes
+				has_government = fascism
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+
+		completion_reward = {
+			
+		}
+	}
+	
+	focus = {
+		id = USA_limited_intervention
+		icon = GFX_goal_generic_territory_or_war
+		
+		continue_if_invalid = yes
+		x = 0
+		y = 1
+		
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		available_if_capitulated = no
+		cancel_if_invalid = no
+		continue_if_invalid = yes
+		available = {
+			congress_high_support_trigger = yes 
+			has_government = democratic
+			NOT = { has_idea_with_trait = fascist_demagogue }
+			NOT = { has_idea_with_trait = communist_revolutionary }
+			OR = {
+				has_war_support > 0.25		
+				has_war = yes
+			}
+			has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
+			
+		}
+		bypass = {
+			
+		}
+
+		completion_reward = {
+			
+		}
+	}
+}

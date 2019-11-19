@@ -1,0 +1,37 @@
+
+state={
+	id=378
+	name="STATE_378"
+	resources={
+		oil=120.000
+		iron=19.000
+		tungsten = 19
+		chromium= 68
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 6
+			arms_factory = 3
+			industrial_complex = 5
+			air_base = 8
+			steel_refinery = 1
+
+		}
+		victory_points = {
+			6699 1
+		}
+		victory_points = {
+			6876 1
+		}
+
+	}
+
+	provinces={
+		710 941 1432 1601 1651 4518 6694 6699 6876 7667 9713 9911 11763 
+	}
+	manpower = 1218567
+	buildings_max_level_factor=1.000
+	state_category=city
+}

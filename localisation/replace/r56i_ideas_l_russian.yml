@@ -1,0 +1,44 @@
+﻿#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+l_russian:
+
+ etgi_ideas:0 "Национальный характер"
+ 
+ etgi_ideas_women:0 "Правовой статус женщин"
+ etgi_laws_women_d:0 "Традиционные роли"
+ etgi_laws_women_1:0 "Ограниченные права"
+ etgi_laws_women_2:0 "Принудительный патриархат"
+ etgi_laws_women_3:0 "Полное равенство"
+ 
+ etgi_ideas_social_balance:0 "Общественный строй"
+ etgi_laws_social_balance_d:0 "Культурные нормы"
+ etgi_laws_social_balance_1:0 "Иерархия"
+ etgi_laws_social_balance_2:0 "Революционные умы"
+ etgi_laws_social_balance_3:0 "Плавильный котел"
+ etgi_laws_social_balance_4:0 "Великое благо"
+ 
+ etgi_ideas_war_mentality:0 "Оправдание войны"
+ etgi_laws_war_mentality_d:0 "Уроки истории"
+ etgi_laws_war_mentality_1:0 "Идеологическая борьба"
+ etgi_laws_war_mentality_2:0 "Конфронтация"
+ etgi_laws_war_mentality_3:0 "Мировой порядок"
+ 
+ etgi_ideas_foreign_relations:0 "Иностранные отношения"
+ etgi_laws_foreign_relations_d:0 "Сфера влияния"
+ etgi_laws_foreign_relations_1:0 "Обмен идеями"
+ etgi_laws_foreign_relations_2:0 "Интернациональная торговля"
+ etgi_laws_foreign_relations_3:0 "Закрытые двери"
+ 
+ etgi_ideas_internal_security:0 "Правоохранительные органы"
+ etgi_laws_internal_security_d:0 "Сбалансированный подход"
+ etgi_laws_internal_security_1:0 "Порядок прежде всего"
+ etgi_laws_internal_security_2:0 "Личные права"
+ 
+ etgi_ideas_leadership_structure:0 "Мандат государства"
+ etgi_laws_leadership_structure_d:0 "Власть и политика"
+ etgi_laws_leadership_structure_1:0 "Культ личности"
+ etgi_laws_leadership_structure_2:0 "Светские институты"
+ etgi_laws_leadership_structure_3:0 "Божественное вдохновение"
+ etgi_laws_leadership_structure_4:0 "Воля людей"
+ 
+#####---------------------------------------------------------------------> End
