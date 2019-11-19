@@ -3,7 +3,9 @@ state={
 	id=612
 	name="STATE_612" # Chahar
 	manpower = 566000
-	
+	resources = {
+		iron = 47
+	}
 	state_category = rural
 
 	history={

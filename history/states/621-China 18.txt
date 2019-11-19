@@ -2,6 +2,10 @@ state={
 	id=621
 	name="STATE_621"
 
+	resources = {
+		iron = 67
+	}
+
 	history={
 		owner = SHX
 		add_core_of = MEN

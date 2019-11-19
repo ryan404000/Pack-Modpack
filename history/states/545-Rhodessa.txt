@@ -4,7 +4,9 @@ state={
 	state_category = pastoral
 	
 	name="STATE_545"
-
+	resources = {
+		iron = 47
+	}
 	history={
 		owner = ENG
 		buildings = {
