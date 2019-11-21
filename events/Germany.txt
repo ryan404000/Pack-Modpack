@@ -6477,6 +6477,21 @@ country_event = {
 				set_state_controller = 718
 			}
 		}
+
+		IF = {
+			limit = {
+				GER = {
+					controls_state = 336
+					NOT = {
+						owns_state = 336
+					}
+				}
+			}
+			MAL = {
+				set_state_controller = 336
+				set_state_controller = 333
+			}
+		}
 		
 		IF = {
 			limit = {
