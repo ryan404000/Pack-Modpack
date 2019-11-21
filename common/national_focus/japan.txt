@@ -2563,7 +2563,7 @@ focus_tree = {
 
 	focus = { 
 		
-		id = JAP_integrate_reorganized_china_into_manchukuo #WILL INTEGRATE MENGJIANG INTO MANCHUKUO
+		id = JAP_integrate_reorganized_china_into_manchukuo #WILL INTEGRATE CHINA INTO MANCHUKUO
 		icon = GFX_focus_jap_manchurian_project
 		prerequisite = { focus = JAP_integrate_chinese_puppets }
 		x = 0
@@ -2572,7 +2572,7 @@ focus_tree = {
 
 		cost = 15 #LONG TIME TO DO, WILL LEAD TO STABILITY HIT IN MANCHUKUO
 
-		#CAUSES MANCHUKUO TO TAKE ALL OF MENGJIANG'S ARMY AND EQUIPMENT AND CORES
+		#CAUSES MANCHUKUO TO TAKE ALL OF CHINA'S ARMY AND EQUIPMENT AND CORES
 
 		ai_will_do = {
 			factor = 1
@@ -2585,6 +2585,9 @@ focus_tree = {
 			if = {
 				MAN = {
 					exist = yes
+					limit = {
+						CHI = { is_subject_of = ROOT }
+					}					
 					annex_country = {
 						target = CHI
 						transfer_army = yes
