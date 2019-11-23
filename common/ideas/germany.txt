@@ -2377,9 +2377,6 @@ ideas = {
 					NOT = { has_autonomy_state = autonomy_supervised_state }
 				}
 				has_completed_focus = GER_four_year_plan
-				NOT = {
-					has_idea = hjalmar_schacht
-				}
 				IF = {
 					limit = {
 						has_completed_focus = GER_autarky
@@ -2406,12 +2403,6 @@ ideas = {
 				#has_completed_focus = GER_four_year_plan
 				NOT = { has_completed_focus = GER_demand_sudetenland }
 				NOT = { has_completed_focus = GER_demand_slovenia } 
-				NOT = {
-					AND = {
-						has_completed_focus = GER_autarky
-						has_government = fascism
-					}
-				}
 			}
 			
 			traits = { captain_of_industry financial_expert}

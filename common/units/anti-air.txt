@@ -17,6 +17,8 @@ sub_units = {
 			anti_air
 		}
 
+		combat_width = 0
+
 		group = support
 
 		categories = {
@@ -25,8 +27,6 @@ sub_units = {
 			category_aa
 		}
 
-		
-		combat_width = 1
 		training_time = 120
 
 		need = {

@@ -4978,7 +4978,7 @@ foreign_politics = {
 		fire_only_once = yes
 	
 		ai_will_do = {
-			factor = 100
+			factor = 0
 			modifier = {
 				factor = 0
 				ITA = {
@@ -5037,22 +5037,10 @@ foreign_politics = {
 		complete_effect = {
 			CRO = {
 				transfer_state = 109
-				#transfer_state = 103
-				transfer_state = 104
-			}
-			
-			GER = {
-				set_autonomy = {
-					target = CRO
-					autonomy_state = autonomy_satellite
-				}
-				transfer_state = 102
-				transfer_state = 107
-				transfer_state = 764
-				
 			}
 			HUN = {
 				transfer_state = 45
+				transfer_state = 764
 			}
 			BUL = {
 				transfer_state = 106
@@ -5062,6 +5050,7 @@ foreign_politics = {
 				transfer_state = 105
 				transfer_state = 103
 				transfer_state = 816
+				transfer_state = 104
 			}
 		}
 	}
