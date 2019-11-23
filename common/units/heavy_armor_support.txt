@@ -24,7 +24,7 @@ sub_units = {
 		}
 
 
-		combat_width = 0
+		combat_width = 1
 
 		need = {
 			heavy_tank_equipment = 15

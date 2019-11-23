@@ -39,7 +39,7 @@ equipments = {
 		#Space taken in convoy
 		lend_lease_cost = 15
 		
-		build_cost_ic = 35 
+		build_cost_ic = 42
 		resources = {
 			#oil = 1
 			steel = 4
@@ -47,7 +47,7 @@ equipments = {
 			coal = 1
 		}
 		
-		fuel_consumption = 5
+		fuel_consumption = 6
 	}
 
 	# 1934
@@ -84,14 +84,14 @@ equipments = {
 		hard_attack = 40
 		ap_attack = 111
 		
-		build_cost_ic = 37 
+		build_cost_ic = 45
 		resources = {
 		   #oil = 1
 			steel = 4
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 5.5
+		fuel_consumption = 6.5
 	}
 
 	# 1943
@@ -118,14 +118,14 @@ equipments = {
 		hard_attack = 53
 		ap_attack = 131
 		
-		build_cost_ic = 39
+		build_cost_ic = 49
 		resources = {
 			#oil = 1
 			steel = 5
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 5.8
+		fuel_consumption = 6.8
 	}
 
 	heavy_tank_artillery_equipment = {
@@ -176,7 +176,7 @@ equipments = {
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 2.2
+		fuel_consumption = 4
 	}
 
 	heavy_tank_artillery_equipment_1 = {
@@ -224,7 +224,7 @@ equipments = {
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 2.4
+		fuel_consumption = 4.2
 	}
 
 	heavy_tank_artillery_equipment_3 = {
@@ -260,7 +260,7 @@ equipments = {
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 2.6
+		fuel_consumption = 4.5
 	}
 
 	heavy_tank_destroyer_equipment = {
@@ -311,7 +311,7 @@ equipments = {
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 2.2
+		fuel_consumption = 4
 	}
 
 	heavy_tank_destroyer_equipment_1 = {
@@ -361,7 +361,7 @@ equipments = {
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 2.4
+		fuel_consumption = 4.2
 	}
 
 	heavy_tank_destroyer_equipment_3 = {
@@ -399,7 +399,7 @@ equipments = {
 			chromium = 4
 			coal = 1
 		}
-		fuel_consumption = 2.6
+		fuel_consumption = 4.6
 	}
 
 	heavy_tank_aa_equipment = {
@@ -451,7 +451,7 @@ equipments = {
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 1.1
+		fuel_consumption = 3
 	}
 
 	heavy_tank_aa_equipment_1 = {
@@ -501,7 +501,7 @@ equipments = {
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 1.5
+		fuel_consumption = 3.5
 	}
 
 	heavy_tank_aa_equipment_3 = {
@@ -540,7 +540,7 @@ equipments = {
 			chromium = 3
 			coal = 1
 		}
-		fuel_consumption = 1.7
+		fuel_consumption = 3.8
 		
 	}
 }
