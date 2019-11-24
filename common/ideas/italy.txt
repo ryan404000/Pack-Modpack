@@ -74,7 +74,7 @@ ideas = {
 			modifier = {
 				production_speed_buildings_factor = 0.10
 				industry_repair_factor = 0.10
-				conscription_factor = 0.02
+				conscription_factor = 0.2
 			}
 		}
 		ITA_german_millitary_cooperation_focus = {

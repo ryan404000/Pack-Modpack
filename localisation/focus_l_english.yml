@@ -540,6 +540,7 @@
  ITA_libyan_dockyards_desc:0 "With our hold over Libya solidified, we must use the Libyan coastline to increase our naval might!"
  ITA_population_motivation:0 "Population Motivation"
  ITA_population_motivation_desc:0 "Our soldiers will 'gently' motivate the Ethiopians and Libyans into the factories and into our army."
+ ITA_colonial_administration_tt:0 "Unlocks §YColonial Resource Exploitation§  Decisions.\n"
  soviet_focus:0 "Soviet National Focus"
  SOV_finish_five_year_plan:0 "Finish the Five Year Plan"
  SOV_finish_five_year_plan_desc:0 "The second Five Year Plan prioritizes the development of heavy industry. The Soviet Union must develop quickly in order to match the Capitalist and Fascist powers of the West."
