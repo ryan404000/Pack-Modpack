@@ -1,4 +1,10 @@
 ﻿l_english:
+ exploit_libyan_iron:0 "Exploit Libyan Iron Mines"
+ exploit_libyan_iron_2:0 "Further Exploit Libyan Iron"
+ exploit_libyan_iron_3:0 "Further Exploit Libyan Iron"
+ exploit_libyan_oil:0 "Exploit Libyan Oil"
+ exploit_libyan_oil_2:0 "Further Exploit Libyan Oil"
+ exploit_libyan_oil_3:0 "Further Exploit Libyan Oil"
  VIC_scuttle_the_fleet:0 "Scuttle the Fleet"
  VIC_scuttle_the_fleet_desc:0 "Foreign forces are making a push to forcibly take control of our naval forces. We cannot allow this to happen. Our only remaining option is to scuttle our own ships!"
  VIC_case_anton_mission:0 "Case Anton Under Way"

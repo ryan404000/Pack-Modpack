@@ -1,5 +1,6 @@
 ideas = {
 	country = {
+	
 		victor_emmanuel = {
 			
 			
@@ -53,7 +54,29 @@ ideas = {
 				army_morale_factor = -0.05
 			}
 		}
+		ITA_colonial_admin1 = {
+			allowed = {
+				original_tag = ITA
+			}
+			removal_cost = -1
+			modifier = {
+				industry_repair_factor = 0.10
+				conscription_factor = .02
+			}
+		}
 
+		ITA_colonial_admin2 = {
+
+			allowed = {
+				original_tag = ITA
+			}
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.10
+				industry_repair_factor = 0.10
+				conscription_factor = .02
+			}
+		}
 		ITA_german_millitary_cooperation_focus = {
 
 			picture = german_advisors
