@@ -1540,7 +1540,7 @@ focus_tree = {
 			factor = 1
 		} 
 
-		complete_reward = {
+		completion_reward = {
 			add_ideas = ITA_colonial_admin1
 		}
 	}
