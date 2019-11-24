@@ -13,7 +13,12 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_land
-
+		upgrades = {
+			AA_reliability_upgrade
+			AA_AA_upgrade
+			AA_HA_upgrade
+			AA_defence_upgrade
+		}
 		#Misc Abilities
 		reliability = 0.8
 		maximum_speed = 2

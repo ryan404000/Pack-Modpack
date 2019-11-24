@@ -13,7 +13,9 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_land
-		
+		upgrades = {
+			SUPP_reliability_upgrade
+		}		
 		reliability = 0.8
 
 		#Space taken in convoy

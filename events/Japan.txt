@@ -635,13 +635,13 @@ country_event = {
 	
 	option = { #accept
 		name = japan.200.a
-		ai_chance = { factor = 100 }
+		ai_chance = { factor = 25 }
 		country_event = { id = japan.201}
 	}
 	
 	option = { #refuse
 		name = japan.200.b
-		ai_chance = { factor = 0 }
+		ai_chance = { factor = 75 }
 		country_event = { id = japan.202}
 	}
 	
@@ -715,31 +715,31 @@ country_event = {
 			
 			set_truce = {
 				target = CHI
-				days = 870
+				days = 950
 			}
 			set_truce = {
 				target = PRC
-				days = 870
+				days = 950
 			}
 			set_truce = {
 				target = SHX
-				days = 870
+				days = 950
 			}
 			set_truce = {
 				target = GXC
-				days = 870
+				days = 950
 			}
 			set_truce = {
 				target = YUN
-				days = 870
+				days = 950
 			}
 			set_truce = {
 				target = XSM
-				days = 870
+				days = 950
 			}
 			set_truce = {
 				target = SIK
-				days = 870
+				days = 950
 			}
 		}
 	}

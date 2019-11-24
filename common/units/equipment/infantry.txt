@@ -12,7 +12,12 @@ equipments = {
 		group_by = archetype
 		
 		interface_category = interface_category_land
-		
+		upgrades = {
+			INF_reliability_upgrade
+			INF_SA_upgrade
+			INF_HA_upgrade
+			INF_defence_upgrade
+		}		
 		active = yes
 		
 		#Misc Abilities

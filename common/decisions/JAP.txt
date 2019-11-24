@@ -985,11 +985,11 @@ foreign_politics = {
 			JAP = {
 				has_war_with = CHI
 			}
-			CHI = { surrender_progress > 0.6 }
+			CHI = { surrender_progress > 0.5 }
 		}
 		
 		visible = {
-			CHI = { surrender_progress > 0.2 }	
+			CHI = { surrender_progress > 0.4 }	
 			original_tag = JAP
 		}
 		

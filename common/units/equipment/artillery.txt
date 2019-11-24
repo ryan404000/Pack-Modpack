@@ -11,7 +11,12 @@ equipments = {
 			#motorized #Removing motorized type
 		}
 		group_by = archetype
-		
+		upgrades = {
+			ART_reliability_upgrade
+			ART_SA_upgrade
+			ART_HA_upgrade
+			ART_defence_upgrade
+		}		
 		interface_category = interface_category_land
 		
 		# Upgrades (More Variants Mod)

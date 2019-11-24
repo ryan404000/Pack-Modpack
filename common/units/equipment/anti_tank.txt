@@ -11,7 +11,12 @@ equipments = {
 			infantry #adding infantry type
 		}
 		group_by = archetype
-		
+		upgrades = {
+			AT_reliability_upgrade
+			AT_pierce_upgrade
+			AT_HA_upgrade
+			AT_defence_upgrade
+		}		
 		interface_category = interface_category_land
 
 		#Misc Abilities
