@@ -11,5 +11,5 @@ tags={
 	"Technologies"
 	"Alternative History"
 }
-name="PACK Modpack"
+name="PACK Modpack-dev"
 remote_file_id="1905828828"
