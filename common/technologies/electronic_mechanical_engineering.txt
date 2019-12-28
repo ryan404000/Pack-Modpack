@@ -424,7 +424,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
-		research_cost = 2.5
+		research_cost = 1.5
 		
 		folder = {
 			name = electronics_folder
@@ -462,8 +462,8 @@ technologies = {
 			leads_to_tech = improved_fire_control_system
 			research_cost_coeff = 1
 		}
-		research_cost = 2.5
-		start_year = 1939
+		research_cost = 1.5
+		start_year = 1937
 		
 		folder = {
 			name = electronics_folder
@@ -516,7 +516,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1942
+		start_year = 1939
 		
 		
 		folder = {
@@ -571,7 +571,7 @@ technologies = {
 		}
 		
 		research_cost = 2.5
-		start_year = 1945
+		start_year = 1941
 		
 		folder = {
 			name = electronics_folder
@@ -606,7 +606,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1939
+		start_year = 1937
 		
 		folder = {
 			name = electronics_folder
@@ -647,7 +647,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1942
+		start_year = 1940
 		
 		
 		folder = {
@@ -689,7 +689,7 @@ technologies = {
 		encryption = 1
 		
 		research_cost = 1
-		start_year = 1945
+		start_year = 1942
 		
 		
 		folder = {
@@ -746,7 +746,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1939
+		start_year = 1937
 		
 		folder = {
 			name = electronics_folder
@@ -783,7 +783,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1942
+		start_year = 1940
 		
 		
 		folder = {
@@ -821,7 +821,7 @@ technologies = {
 		decryption = 1
 		
 		research_cost = 1.5
-		start_year = 1945
+		start_year = 1942
 		
 		
 		folder = {
@@ -1054,7 +1054,6 @@ technologies = {
 			naval_equipment
 		}
 	}
-
 	
 	experimental_rockets = {
 

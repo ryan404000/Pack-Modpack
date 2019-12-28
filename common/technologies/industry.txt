@@ -371,7 +371,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1938
+		start_year = 1937
 		
 		
 		folder = {
@@ -411,7 +411,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1940
+		start_year = 1939
 		
 		
 		folder = {
@@ -450,7 +450,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1942
+		start_year = 1941
 		
 		
 		folder = {
@@ -484,7 +484,7 @@ technologies = {
 		global_building_slots_factor = 0.15
 		
 		research_cost = 3
-		start_year = 1944
+		start_year = 1943
 		
 		
 		folder = {
@@ -606,7 +606,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1938
+		start_year = 1937
 		
 		
 		folder = {
@@ -648,7 +648,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1940
+		start_year = 1939
 		
 		
 		folder = {
@@ -690,7 +690,7 @@ technologies = {
 		}
 		
 		research_cost = 3
-		start_year = 1942
+		start_year = 1941
 		
 		
 		folder = {
@@ -728,7 +728,7 @@ technologies = {
 		
 		
 		research_cost = 3
-		start_year = 1944
+		start_year = 1943
 		
 		folder = {
 			name = industry_folder
@@ -1802,7 +1802,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1938
+		start_year = 1937
 		
 		
 		categories = {
@@ -1834,7 +1834,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1938
+		start_year = 1937
 		
 		categories = {
 			industry
@@ -1892,7 +1892,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1939
 		
 		
 		categories = {
@@ -1925,7 +1925,6 @@ technologies = {
 		}
 	}
 
-
 	excavation3 = {
 		
 		local_resources_factor = 0.10
@@ -1935,7 +1934,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1940
+		start_year = 1939
 		
 		
 		categories = {
@@ -1993,7 +1992,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1942
+		start_year = 1941
 		
 		
 		categories = {
@@ -2025,7 +2024,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1942
+		start_year = 1941
 		
 		
 		categories = {
@@ -2080,7 +2079,7 @@ technologies = {
 
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1943
 		
 		
 		categories = {
@@ -2103,7 +2102,6 @@ technologies = {
 		}
 	}
 
-
 	excavation5 = {
 		
 		local_resources_factor = 0.10
@@ -2113,7 +2111,7 @@ technologies = {
 		}
 		
 		research_cost = 2
-		start_year = 1944
+		start_year = 1943
 		
 		
 		categories = {
