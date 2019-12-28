@@ -147,7 +147,7 @@ ideas = {
 			removal_cost = -1
 			
 			modifier = {
-				send_volunteer_factor = 5
+				send_volunteer_factor = 2
 			}
 			
 			

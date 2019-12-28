@@ -4821,9 +4821,6 @@ focus_tree = {
 		}
 	}
 
-
-
-
 #   #  ##  ###      ###  #    ##  #  #  ## 
 #   # #  # #  #     #  # #   #  # ## # #   
 # # # #### ###      ###  #   #### # ##  #  
@@ -4993,7 +4990,6 @@ focus_tree = {
 			}
 		}
 	}
-
 	focus = {
 		id = USA_war_plan_gray
 		icon = GFX_goal_generic_more_territorial_claims
@@ -5205,7 +5201,7 @@ focus_tree = {
 	focus = {
 		id = USA_war_plan_silver
 		icon = GFX_focus_attack_italy
-		x = -2
+		x = 4
 		y = 1
 		prerequisite = { focus = USA_intervention_in_europe }
 		mutually_exclusive = { }
@@ -5242,16 +5238,16 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_war_support > 0.99
+				has_war_support > 0.75
 				AND = {
-					has_war_support > 0.85
+					has_war_support > 0.60
 					date > 1942.1.1
 				}
 			}
 			congress_high_support_trigger = yes
 			#threat > 0.95
 			ITA = {
-				has_offensive_war = yes 
+				has_war = yes 
 				has_added_tension_amount > 10			
 			}
 		}
@@ -5287,7 +5283,7 @@ focus_tree = {
 		continue_if_invalid = yes
 		available_if_capitulated = yes
 
-		x = 0
+		x = 6
 		y = 1
 		relative_position_id = USA_intervention_in_europe
 		cost = 5
@@ -5301,6 +5297,32 @@ focus_tree = {
 			unlock_decision_tooltip = { decision = USA_execute_war_plan_black show_effect_tooltip = yes show_modifiers = yes }
 		}
 	}
+
+	focus = {
+		id = USA_join_the_allies
+		icon = GFX_focus_attack_britain
+		prerequisite = { focus = USA_DOW_ger_focus focus = USA_DOW_italy_focus focus = USA_DOW_japan_focus }
+		available = {
+		}
+		continue_if_invalid = yes
+		available_if_capitulated = yes
+		x = 0
+		y = 1
+		relative_position_id = USA_DOW_ger_focus
+		cost = 5
+		ai_will_do = {
+			factor = 1
+		}
+
+		completion_reward = {
+			set_rule = {
+				can_create_factions = yes
+			}
+			add_to_faction = Allies
+		}
+
+	}
+
 	focus = {
 		id = USA_destroyers_for_bases
 		icon = GFX_goal_generic_navy_cruiser
@@ -5374,17 +5396,16 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_war_support > 0.99
+				has_war_support > 0.75
 				AND = {
-					has_war_support > 0.85
+					has_war_support > 0.60
 					date > 1942.1.1
 				}
 			}
 			congress_high_support_trigger = yes
 			#threat > 0.95
 			GER = {
-				has_offensive_war = yes 
-				has_added_tension_amount > 30			
+				has_war = yes 	
 			}
 		}
 		
@@ -5540,7 +5561,7 @@ focus_tree = {
 		available = {
 			
 		}
-		x = 2
+		x = -2
 		y = 1
 		relative_position_id = USA_intervention_in_europe
 		cost = 5
@@ -5560,10 +5581,10 @@ focus_tree = {
 	focus = {
 		id = USA_anti_bolshevist_aid
 		icon = GFX_goal_generic_war_with_comintern
-		x = 2
-		y = 2
+		x = 0
+		y = 1
 		prerequisite = { focus = USA_war_plan_white }
-		relative_position_id = USA_intervention_in_europe
+		relative_position_id = USA_war_plan_white
 		cost = 10
 
 		ai_will_do = {
@@ -5586,7 +5607,6 @@ focus_tree = {
 			custom_effect_tooltip = mtg_usa_anti_bolshevist_aid_tt 
 		}
 	}
-	
 	focus = {
 		id = USA_DOW_sov_focus
 		
@@ -5631,8 +5651,6 @@ focus_tree = {
 			}
 		}
 	}
-	
-	
 	focus = {
 		id = USA_war_plan_red
 		icon = GFX_focus_attack_britain
@@ -5640,7 +5658,7 @@ focus_tree = {
 		available = {
 			
 		}
-		x = 5
+		x = 1
 		y = 1
 		relative_position_id = USA_intervention_in_europe
 		cost = 5
@@ -5657,7 +5675,6 @@ focus_tree = {
 			unlock_decision_tooltip = { decision = USA_execute_war_plan_red show_effect_tooltip = yes show_modifiers = yes}
 		}
 	}
-	
 	focus = {
 		id = USA_DOW_uk_focus
 		
@@ -5705,10 +5722,10 @@ focus_tree = {
 	focus = {
 		id = USA_war_plan_ruby
 		icon = GFX_focus_attack_india
-		x = 4
-		y = 3
+		x = -1
+		y = 2
 		prerequisite = { focus = USA_war_plan_red }
-		relative_position_id = USA_intervention_in_europe
+		relative_position_id = USA_war_plan_red
 		cost = 5
 
 		ai_will_do = {
@@ -5734,10 +5751,10 @@ focus_tree = {
 	focus = {
 		id = USA_war_plan_scarlet_garnet
 		icon = GFX_focus_attack_australia
-		x = 6
-		y = 3
+		x = 1
+		y = 2
 		prerequisite = { focus = USA_war_plan_red }
-		relative_position_id = USA_intervention_in_europe
+		relative_position_id = USA_war_plan_red
 		cost = 5
 
 		ai_will_do = {
@@ -5959,16 +5976,16 @@ focus_tree = {
 		
 		available = {
 			OR = {
-				has_war_support > 0.99
+				has_war_support > 0.75
 				AND = {
-					has_war_support > 0.85
+					has_war_support > 0.60
 					date > 1942.1.1
 				}
 			}
 			congress_high_support_trigger = yes
 			#threat > 0.8
 			JAP = {
-				has_offensive_war = yes 
+				has_war = yes 
 				OR = {
 					has_added_tension_amount > 10	
 					has_war_with = ENG 
