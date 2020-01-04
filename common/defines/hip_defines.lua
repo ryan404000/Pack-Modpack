@@ -159,7 +159,7 @@ NDefines.NMilitary.BASE_DIVISION_SUPPORT_SLOT_COST = 5 	--Base cost to unlock a 
 
 
 
-NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 10		-- chance to get a hit to damage on forts. (out of 100)
+NDefines.NMilitary.LAND_COMBAT_FORT_DAMAGE_CHANCE = 05		-- chance to get a hit to damage on forts. (out of 100)
 
 -- air impact on land combats
 
@@ -171,12 +171,12 @@ NDefines.NMilitary.LAND_AIR_COMBAT_MAX_PLANES_PER_ENEMY_WIDTH = 5 -- how many CA
 
 NDefines.NMilitary.LAND_COMBAT_STR_DAMAGE_MODIFIER = 0.075        -- global damage modifier... but some equipment is returned at end of battles see : EQUIPMENT_COMBAT_LOSS_FACTOR
 NDefines.NMilitary.LAND_COMBAT_ORG_DAMAGE_MODIFIER = 0.025        -- global damage modifier
-NDefines.NMilitary.BASE_CHANCE_TO_AVOID_HIT = 80                 -- Base chance to avoid hit if defences left.
-NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 40	           -- chance to avoid hit if no defences left.
+NDefines.NMilitary.BASE_CHANCE_TO_AVOID_HIT = 75                 -- Base chance to avoid hit if defences left.
+NDefines.NMilitary.CHANCE_TO_AVOID_HIT_AT_NO_DEF = 30	           -- chance to avoid hit if no defences left.
 
 -- Effects on experience and equipment
 
-NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.75                 -- percentage of experienced solders who die when manpower is removed
+NDefines.NMilitary.EXPERIENCE_LOSS_FACTOR = 0.85                 -- percentage of experienced solders who die when manpower is removed
 NDefines.NMilitary.EQUIPMENT_COMBAT_LOSS_FACTOR = 0.55	 	       -- % of equipment lost to strength ratio in combat, so some % is returned if below 1
 
 -- Armor case
@@ -224,11 +224,11 @@ NDefines.NMilitary.ACCLIMATIZATION_SPEED_GAIN = 0.08				-- A variable used to ba
 NDefines.NMilitary.ACCLIMATIZATION_LOSS_SPEED_FACTOR = 1.0		-- Loosing one acclimatization while being under affect of the opposite climate should cause it to drop down much faster than gaining.
 NDefines.NMilitary.UNIT_LEADER_MODIFIER_COOLDOWN_ON_GROUP_CHANGE = 3		-- time in days for a unit leader to regain its modifiers
 
-NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 6				-- Most xp you can gain per day
+NDefines.NMilitary.FIELD_EXPERIENCE_MAX_PER_DAY = 5				-- Most xp you can gain per day
 NDefines.NMilitary.ALERT_LOW_SUPPLY_LEVEL = 0.8
 
 
-NDefines.NMilitary.TRAINING_ATTRITION = 0.01		  			   -- amount of extra attrition from being in training
+NDefines.NMilitary.TRAINING_ATTRITION = 0.04		  			   -- amount of extra attrition from being in training
 
 NDefines.NMilitary.OVERSEAS_LOSE_EQUIPMENT_FACTOR = 1.0		   -- percentage of equipment lost disbanded overseas
 NDefines.NMilitary.ENCIRCLED_DISBAND_MANPOWER_FACTOR = 0.0       -- percentage of manpower returned when an encircled unit is disbanded
@@ -243,7 +243,7 @@ NDefines.NMilitary.FRONT_MIN_PATH_TO_REDEPLOY = 4					-- If a units path is at l
 NDefines.NMilitary.BASE_CAPTURE_EQUIPMENT_RATIO = 0.05				-- after a successful land combat, ratio of the equipments that are being captured/salvaged from enemy's lost equipment
 
 
-NDefines.NMilitary.LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0		-- was 0.005 Experience scale for lend leased equipment used in combat.
+NDefines.NMilitary.LEND_LEASE_FIELD_EXPERIENCE_SCALE = 0.005		-- was 0.005 Experience scale for lend leased equipment used in combat.
 
 -- meaningfull combat
 
@@ -261,7 +261,7 @@ NDefines.NMilitary.RIVER_CROSSING_SPEED_PENALTY_LARGE = -0.7     -- large river 
 NDefines.NMilitary.BASE_FORT_PENALTY = -0.20 					   -- fort penalty		#HOI4TGW ::: BASE_FORT_PENALTY = -0.15
 NDefines.NMilitary.MULTIPLE_COMBATS_PENALTY = -0.6               -- defender penalty if attacked from multiple directions
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_DEFENSE_STEEPNESS = 120 -- how quickly defense approaches the max impact diminishing returns curve
-NDefines.NMilitary.ENCIRCLED_PENALTY = -0.35                      -- penalty when completely encircled
+NDefines.NMilitary.ENCIRCLED_PENALTY = -0.45                      -- penalty when completely encircled
 NDefines.NMilitary.UNIT_DIGIN_CAP = 7                           -- how "deep" you can dig you can dig in until hitting max bonus
 NDefines.NMilitary.UNIT_DIGIN_SPEED = 0.9						   -- how "deep" you can dig a day.
 NDefines.NMilitary.ORG_LOSS_FACTOR_ON_CONQUER = 0.3              -- percentage of (max) org loss on takign enemy province

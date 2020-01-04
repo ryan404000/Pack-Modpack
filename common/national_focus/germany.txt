@@ -2827,7 +2827,6 @@ focus_tree = {
 		}
 	}
 	
-
 	focus = {
 		id = GER_naval_air_effort
 		text = naval_air_effort
@@ -3026,7 +3025,7 @@ focus_tree = {
 				bonus = 1.0
 				ahead_reduction = 1
 				uses = 1
-				technology = fighter3
+				technology = fighter2
 			}
 			if = {
 				limit = {

@@ -293,7 +293,7 @@ equipments = {
 		archetype = med_maritime_equipment
 		priority = 110
 		
-		air_range = 2400
+		air_range = 1400
 		maximum_speed = 430
 		air_agility =20
 		air_attack = 8
@@ -321,7 +321,7 @@ equipments = {
 		parent = med_maritime_equipment_1
 		priority = 110
 		
-		air_range = 2500
+		air_range = 1600
 		maximum_speed = 440
 		air_agility =25
 		air_attack = 13
@@ -350,7 +350,7 @@ equipments = {
 		parent = med_maritime_equipment_2
 		priority = 110
 		
-		air_range = 3000
+		air_range = 2000
 		maximum_speed = 480
 		air_agility = 30
 		air_attack = 20
@@ -377,7 +377,7 @@ equipments = {
 		archetype = strat_maritime_equipment
 		priority = 140
 		
-		air_range = 2500
+		air_range = 2000
 		maximum_speed = 400
 		air_agility = 5
 		air_attack = 14
@@ -397,7 +397,7 @@ equipments = {
 		parent = strat_maritime_equipment_1
 		priority = 140
 
-		air_range = 3500
+		air_range = 2500
 		maximum_speed = 450
 		air_agility = 7
 		air_attack = 28
@@ -424,7 +424,7 @@ equipments = {
 		parent = strat_maritime_equipment_2
 		priority = 140
 		
-		air_range = 5000
+		air_range = 4000
 		maximum_speed = 500
 		air_agility = 10
 		air_attack = 42

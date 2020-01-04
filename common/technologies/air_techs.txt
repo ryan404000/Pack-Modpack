@@ -231,8 +231,6 @@ technologies = {
 			fighter_equipment_2
 		}
 		
-			
-	
 		path = {
 			leads_to_tech = fighter3
 			

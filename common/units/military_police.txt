@@ -34,7 +34,7 @@ sub_units = {
 		can_be_parachuted = yes
 		
 		# Important Ability
-		suppression_factor = 0.2
+		suppression_factor = 0.3
 		suppression = 1		 
 
 		essential = {
