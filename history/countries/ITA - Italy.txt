@@ -136,9 +136,6 @@ if = {
 set_convoys = 450
 
 set_politics = {
-
-	
-	
 	ruling_party = fascism
 	last_election = "1934.3.26"
 	election_frequency = 60
@@ -149,9 +146,6 @@ set_popularities = {
 	fascism = 76
 	communism = 2
 }
-
-
-
 
 create_country_leader = {
 	name = "Benito Mussolini"
@@ -171,18 +165,17 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-		
 	}
 }
 
 create_country_leader = {
-	name = "Palmiro Togliatti"
+	name = "Comrade Ettore Boiardi"
 	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "GFX_portrait_ita_palmiro_togliatti"
+	picture = "Boiardi.dds"
 	expire = "1965.1.1"
 	ideology = marxism
 	traits = {
-		
+		headstrong
 	}
 }
 
