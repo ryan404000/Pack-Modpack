@@ -3,8 +3,8 @@
 oob = "ITA_1936"
 
 set_research_slots = 3
-set_stability = 0.6
-set_war_support = 0.7
+set_stability = 0.5
+set_war_support = 0.6
 add_ideas = {
 	victor_emmanuel
 	vittoria_mutilata
@@ -165,17 +165,6 @@ create_country_leader = {
 	expire = "1965.1.1"
 	ideology = socialism
 	traits = {
-	}
-}
-
-create_country_leader = {
-	name = "Comrade Ettore Boiardi"
-	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
-	picture = "Boiardi.dds"
-	expire = "1965.1.1"
-	ideology = marxism
-	traits = {
-		headstrong
 	}
 }
 
@@ -401,7 +390,16 @@ create_navy_leader = {
 	coordination_skill = 1
 }
 
-
+create_country_leader = {
+	name = "Comrade Ettore Boiardi"
+	desc = "POLITICS_BENITO_MUSSOLINI_DESC"
+	picture = "Boiardi.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	traits = {
+		headstrong
+	}
+}
 ### VARIANTS ###
 # 1936 Start #
 #plane variants

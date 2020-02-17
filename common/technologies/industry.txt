@@ -1,5 +1,11 @@
 technologies = {
 
+	@1936 = 0
+	@1937 = 2
+	@1940 = 4
+	@1942 = 6
+	@1946 = 8
+
 	basic_machine_tools = {
 	
 		production_factory_max_efficiency_factor = 0.1
