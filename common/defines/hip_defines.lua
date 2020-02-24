@@ -73,7 +73,7 @@ NDefines.NCountry.FUEL_LEASE_CONVOY_RATIO = 0.0015				-- was 0.0005 -- num convo
 -- Production Stuff
 
 NDefines.NProduction.MAX_EQUIPMENT_RESOURCES_NEED = 4 	-- Max number of different strategic resources an equipment can be dependent on.
-NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 15		-- was 15 -- Max number of factories that can be assigned a single production line.
+NDefines.NProduction.MAX_CIV_FACTORIES_PER_LINE = 20		-- was 15 -- Max number of factories that can be assigned a single production line.
 NDefines.NProduction.BASE_FACTORY_MAX_EFFICIENCY_FACTOR = 40
 NDefines.NProduction.BASE_FACTORY_SPEED = 2.5 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
 NDefines.NProduction.BASE_FACTORY_SPEED_MIL = 2.5 				-- Base factory speed multiplier (how much hoi3 style IC each factory gives).
@@ -144,7 +144,7 @@ NDefines.NPolitics.ARMY_LEADER_COST = 2						-- was 5 -- cost for recruiting new
 
 -- Military Stuff
 
-NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = -0.4		-- how much org is lost every hour while moving an army.
+NDefines.NMilitary.HOURLY_ORG_MOVEMENT_IMPACT = -0.2		-- how much org is lost every hour while moving an army.
 NDefines.NMilitary.ZERO_ORG_MOVEMENT_MODIFIER = -0.9		-- speed impact at 0 org.
 NDefines.NMilitary.INFRA_ORG_IMPACT = 0.75				-- scale factor of infra on org regain.
 NDefines.NMilitary.INFRASTRUCTURE_MOVEMENT_SPEED_IMPACT = -0.02	-- speed penalty per infrastucture below maximum.
@@ -192,8 +192,8 @@ NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_DURATION = 12   -- penalty in or
 NDefines.NMilitary.PARACHUTE_ORG_REGAIN_PENALTY_MULT = -0.5	   -- penalty to org regain after being parachuted.
 
 
-NDefines.NMilitary.BASE_COMBAT_WIDTH = 96                       -- base combat width
-NDefines.NMilitary.ADDITIONAL_COMBAT_WIDTH = 48                  -- more opened up by support attack
+NDefines.NMilitary.BASE_COMBAT_WIDTH = 80                       -- base combat width
+NDefines.NMilitary.ADDITIONAL_COMBAT_WIDTH = 40                  -- more opened up by support attack
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_IMPACT = -0.4         -- effect on defense due to enemy air superiorty
 NDefines.NMilitary.ENEMY_AIR_SUPERIORITY_SPEED_IMPACT = -0.5     -- was -0.5 - effect on speed due to enemy air superiority
 

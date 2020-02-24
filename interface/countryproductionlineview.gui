@@ -3426,12 +3426,12 @@ guiTypes = {
 			format = center
 		}
 		
-		gridBoxType = {
+		gridBoxType = { #CONVOY FACTORY GRID
 			name = "factories_grid"
 			position = { x = 345 y = 33 }	
 			size = { width = 150  height = 90 }
 			slotsize = { width = 29 height = 23 }
-			max_slots = { x = 3 y = 3 }
+			max_slots = { x = 3 y = 3 } #####MAX_SLOTS
 			format = "UPPER_LEFT"
 		}
 		
