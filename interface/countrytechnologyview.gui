@@ -161,7 +161,7 @@ guiTypes = {
 				
 		buttonType = {
 			name = "close_button"
-			position = { x = -42 y = 9 }
+			position = { x = -43 y = 9 }
 			quadTextureSprite ="GFX_closebutton"
 			buttonFont = "Main_14_black"
 			shortcut = "ESCAPE"
@@ -214,7 +214,7 @@ guiTypes = {
 		iconType = {
 			name = "carrier_fighter"
 			position = { x = 349 y = 31 }
-			spriteType = "GFX_nav_strike"
+			spriteType = "GFX_airwing_carrier_icon"
 		}
 	
 		instantTextboxType = {

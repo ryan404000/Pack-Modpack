@@ -15,18 +15,6 @@ spriteTypes = {
 		texturefile = "gfx/interface/category_tac_bomber.dds"
 		legacy_lazy_load = no
 	}
-	
-	spriteType = {
-		name = "GFX_unit_category_maritime"
-		texturefile = "gfx/interface/category_tac_bomber.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_unit_category_tac"
-		texturefile = "gfx/interface/category_tac_bomber.dds"
-		legacy_lazy_load = no
-	}
 	spriteType = {
 		name = "GFX_unit_category_strat_bomber"
 		texturefile = "gfx/interface/category_strat_bomber.dds"
@@ -44,34 +32,15 @@ spriteTypes = {
 		texturefile = "gfx/interface/category_heavy_fighter.dds"
 		legacy_lazy_load = no
 	}
-	
-	spriteType = {
-		name = "GFX_unit_hfighter_bomber"
-		texturefile = "gfx/interface/category_heavy_fighter.dds"
-		legacy_lazy_load = no
-	}
 
 	spriteType = {
 		name = "GFX_unit_category_fighter"
 		texturefile = "gfx/interface/category_fighter.dds"
 		legacy_lazy_load = no
 	}
-	
 
 	spriteType = {
 		name = "GFX_unit_category_artillery"
-		texturefile = "gfx/interface/category_artillery.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_unit_category_aa"
-		texturefile = "gfx/interface/category_artillery.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_unit_category_at"
 		texturefile = "gfx/interface/category_artillery.dds"
 		legacy_lazy_load = no
 	}
@@ -105,16 +74,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/category_all_armor.dds"
 		legacy_lazy_load = no
 	}
-	
+
 	spriteType = {
-		name = "GFX_unit_category_support_tanks"
-		texturefile = "gfx/interface/category_all_armor.dds"
-		legacy_lazy_load = no
-	}
-	
-	spriteType = {
-		name = "GFX_unit_category_td"
-		texturefile = "gfx/interface/category_all_armor.dds"
+		name = "GFX_unit_category_recon"
+		texturefile = "gfx/interface/category_all_recon.dds"
 		legacy_lazy_load = no
 	}
 
