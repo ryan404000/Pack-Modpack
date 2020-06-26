@@ -5183,4 +5183,58 @@ exploit_libyan_oil = { #662
 			}
 		}
 	}
+	exploit_kosovo_chromium_deposits = { #Kosovo isn't Real #108
+		icon = chromimium
+
+		allowed = {
+			
+		}
+
+		available = {
+			has_tech = excavation2
+			num_of_civilian_factories_available_for_projects > 5
+			owns_state = 108
+			controls_state = 108
+			tag = YUG
+		}
+
+		highlight_states = {
+			state = 108
+		}
+
+		visible = {
+			has_completed_focus = YUG_rare_minerals_exploitation
+			owns_state = 108
+			controls_state = 108
+			108 = {
+				NOT = {
+					has_state_flag = kosovo_chromium_exploited
+				}
+				## has_state_flag = ##
+			} 
+		}
+
+		fire_only_once = yes
+
+		cost = 50
+		days_remove = 45
+
+		modifier = {
+			civilian_factory_use = 4
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		remove_effect = {
+			108 = { set_state_flag = kosovo_chromium_exploited }
+			108 = {
+				add_resource = {
+					type = chromium
+					amount = 8
+				}
+			}
+		}
+	}	
 }
