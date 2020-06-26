@@ -562,7 +562,7 @@ ideas = {
 	high_command = {
 	
 		mario_roatta = {
-			
+			ledger = army
 			
 			allowed = {
 				original_tag = ITA
@@ -578,7 +578,7 @@ ideas = {
 		}
 		
 		vittorio_ambrosio = {
-			
+			ledger = army			
 			
 			allowed = {
 				original_tag = ITA
@@ -594,7 +594,7 @@ ideas = {
 		}
 		
 		alfredo_guzzoni = {
-			
+			ledger = army			
 			
 			allowed = {
 				original_tag = ITA
@@ -610,7 +610,7 @@ ideas = {
 		}	
 		
 		ettore_muti = {
-			
+			ledger = air			
 			
 			allowed = {
 				original_tag = ITA
@@ -626,7 +626,7 @@ ideas = {
 		}
 		
 		marziale_cerutti = {
-			
+			ledger = air			
 			
 			allowed = {
 				original_tag = ITA
@@ -642,7 +642,7 @@ ideas = {
 		}
 		
 		silvio_scaroni = {
-			
+			ledger = air			
 			
 			allowed = {
 				original_tag = ITA
@@ -658,7 +658,7 @@ ideas = {
 		}
 		
 		alberto_da_zara = {
-			
+			ledger = navy			
 			
 			allowed = {
 				original_tag = ITA
@@ -674,7 +674,7 @@ ideas = {
 		}
 		
 		carlo_bergamini = {
-			
+			ledger = navy				
 			
 			allowed = {
 				original_tag = ITA
@@ -690,7 +690,7 @@ ideas = {
 		}
 		
 		luigi_mascherpa = {
-			
+			ledger = navy				
 			
 			allowed = {
 				original_tag = ITA
@@ -912,6 +912,7 @@ ideas = {
 	
 	theorist = {	
 		giovanni_messe = {
+			ledger = army
 						
 			allowed = {
 				original_tag = ITA
@@ -927,6 +928,7 @@ ideas = {
 		}
 		
 		rodolfo_graziani = {
+			ledger = army
 						
 			allowed = {
 				original_tag = ITA
@@ -946,6 +948,7 @@ ideas = {
 		}
 		
 		guiseppe_fioravanzo = {
+			ledger = navy
 						
 			allowed = {
 				original_tag = ITA
@@ -961,6 +964,7 @@ ideas = {
 		}
 		
 		angelo_iachino = {
+			ledger = navy
 						
 			allowed = {
 				original_tag = ITA
@@ -974,6 +978,7 @@ ideas = {
 		}
 		
 		amedeo_mecozzi = {
+			ledger = air
 			
 			allowed = {
 				original_tag = ITA
@@ -989,7 +994,7 @@ ideas = {
 		}
 		
 		renato_sandalli = {
-			
+			ledger = air			
 			
 			allowed = {
 				original_tag = ITA
@@ -1003,7 +1008,7 @@ ideas = {
 		}
 		
 		gaetano_crocco = {
-			
+			ledger = air			
 			
 			allowed = {
 				original_tag = ITA
