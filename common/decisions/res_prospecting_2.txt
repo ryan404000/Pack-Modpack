@@ -1,8 +1,13 @@
-exploit_libyan_steel = { #448
+prospect_for_resources = {
+	exploit_libyan_steel = { #448
 		icon = steel
 
 		allowed = {
 			
+		}
+
+		highlight_state_targets = {
+			state = 448
 		}
 
 		available = {
@@ -10,10 +15,6 @@ exploit_libyan_steel = { #448
 			num_of_civilian_factories_available_for_projects > 2
 			owns_state = 448
 			controls_state = 448
-		}
-
-		highlight_states = {
-			state = 448
 		}
 
 		visible = {
@@ -587,3 +588,4 @@ exploit_libyan_oil = { #662
 			}
 		}
 	}
+}
