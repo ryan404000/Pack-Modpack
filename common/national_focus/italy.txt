@@ -19,7 +19,7 @@ focus_tree = {
 		icon = GFX_goal_generic_position_armies
 		x = 0
 		y = 0
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 10
 		}
@@ -655,7 +655,7 @@ focus_tree = {
 		icon = GFX_goal_generic_axis_build_infantry
 		x = 4
 		y = 0
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 0.25
 		}
@@ -758,7 +758,7 @@ focus_tree = {
 		x = -1
 		y = 1
 		relative_position_id = ITA_army_primacy
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -783,7 +783,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ITA_modernized_artillery
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -817,7 +817,7 @@ focus_tree = {
 		x = 0
 		y = 2
 		relative_position_id = ITA_modernized_army
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -849,7 +849,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ITA_special_forces
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -961,7 +961,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_army_primacy
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -994,7 +994,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_mare_nostrum
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1018,7 +1018,7 @@ focus_tree = {
 		x = 3
 		y = 1
 		relative_position_id = ITA_mare_nostrum
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1052,7 +1052,7 @@ focus_tree = {
 		x = 0
 		y = 3
 		relative_position_id = ITA_army_primacy
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1087,7 +1087,7 @@ focus_tree = {
 		x = 1
 		y = 2
 		relative_position_id = ITA_air_innovation
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1166,7 +1166,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ITA_atlantic_fleet
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1200,7 +1200,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_bomber_effort
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1235,7 +1235,7 @@ focus_tree = {
 		x = 0
 		y = 1
 		relative_position_id = ITA_air_innovation_2
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1259,7 +1259,7 @@ focus_tree = {
 		icon = GFX_goal_generic_navy_cruiser
 		x = 11
 		y = 0
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1291,7 +1291,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_light_ship_effort
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1324,7 +1324,7 @@ focus_tree = {
 		x = -1
 		y = 2
 		relative_position_id = ITA_light_ship_effort
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1361,7 +1361,7 @@ focus_tree = {
 		x = -1
 		y = 3
 		relative_position_id = ITA_submarine_effort
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 1
 		}
@@ -1493,7 +1493,7 @@ focus_tree = {
 		x = 1
 		y = 1
 		relative_position_id = ITA_victoryinETH
-		cost = 5
+		cost = 7
 		ai_will_do = {
 			factor = 0.25
 		}
@@ -1558,7 +1558,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_colonial_administration
 		}
-		cost = 5
+		cost = 7
+		ai_will_do = {
+			factor = 5
+		}
 		x = -1
 		y = 1
 		relative_position_id = ITA_colonial_administration
@@ -1582,7 +1585,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_colonial_administration
 		}
-		cost = 5
+		cost = 7
+		ai_will_do = {
+			factor = 5
+		}
 		x = 1
 		y = 1
 		relative_position_id = ITA_colonial_administration
@@ -1653,9 +1659,12 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_ethiopian_infrastructure
 		}
-		cost = 5
+		cost = 7
 		x = 0
 		y = 1
+		ai_will_do = {
+			factor = 5
+		}
 		relative_position_id = ITA_ethiopian_infrastructure
 		completion_reward = {
 			271 = {
@@ -1690,7 +1699,10 @@ focus_tree = {
 		}
 		x = 0
 		y = 1
-		cost = 5
+		cost = 7
+		ai_will_do = {
+			factor = 5
+		}
 		relative_position_id = ITA_libyan_infrastructure
 		completion_reward = {
 			add_resource = {
@@ -1715,8 +1727,11 @@ focus_tree = {
 		}
 		x = 2
 		y = 1
+		ai_will_do = {
+			factor = 10
+		}
 		relative_position_id = ITA_libyan_infrastructure
-		cost = 5
+		cost = 7
 		completion_reward = {
 			448 = {
 				if = {
@@ -1771,7 +1786,10 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_libyan_refineries
 		}
-		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		cost = 7
 		x = 1
 		y = 1
 		relative_position_id = ITA_ethiopian_factories

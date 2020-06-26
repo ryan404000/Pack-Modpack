@@ -4641,7 +4641,7 @@ exploit_libyan_steel = { #448
 			448 = {
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 12
 				}
 			}
 		}
@@ -4697,7 +4697,7 @@ exploit_libyan_steel = { #448
 			448 = {
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 12
 				}
 			}
 		}
@@ -4754,7 +4754,7 @@ exploit_libyan_steel = { #448
 		448 = {
 			add_resource = {
 				type = steel
-				amount = 24
+				amount = 12
 			}
 		}
 	}
@@ -4965,7 +4965,7 @@ exploit_libyan_oil = { #662
 			550 = {
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 12
 				}
 			}
 		}
@@ -5018,7 +5018,7 @@ exploit_libyan_oil = { #662
 			271 = {
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 12
 				}
 			}
 		}
@@ -5071,7 +5071,7 @@ exploit_libyan_oil = { #662
 			559 = {
 				add_resource = {
 					type = steel
-					amount = 24
+					amount = 12
 				}
 			}
 		}
