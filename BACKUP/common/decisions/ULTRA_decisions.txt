@@ -1,0 +1,295 @@
+intelligence_war = {
+
+	GER_new_enigma = {
+	
+		icon = generic_propaganda
+		
+		allowed = {
+			original_tag = GER
+		}
+		
+		visible = {
+			has_tech = basic_encryption		
+			has_idea = GER_enigma
+		}
+		
+		available = {
+			has_idea = GER_enigma
+			has_tech = improved_encryption
+			has_war_with = ENG
+		}
+		
+		cost = 100
+		days_remove = 15
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = GER_enigma
+				add_idea = GER_upgraded_enigma
+			}		
+		}
+		
+		is_good = yes
+	}
+	
+	create_ultra = {
+	
+		icon = generic_propaganda
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		visible = {
+			#has_idea = bletchley_park
+			original_tag = ENG
+			has_tech = basic_decryption
+		}
+		
+		available = {
+			#has_idea = bletchley_park
+			has_tech = improved_decryption
+			has_war_with = GER
+		}
+		
+		cost = 150
+		days_remove = 60
+		fire_only_once = yes
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			swap_ideas = {
+				remove_idea = bletchley_park
+				add_idea = ultra_idea
+			}		
+		}
+		
+		is_good = yes
+	}
+	
+	decrypt_german_com = {
+		icon = generic_propaganda
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		visible = {
+			has_idea = bletchley_park
+			original_tag = ENG
+		}
+		
+		available = {
+			has_idea = bletchley_park
+			has_tech = basic_decryption
+			has_war_with = GER
+			GER = {
+				NOT = {
+					has_idea = bombed_enigma
+				}
+			}
+		}
+		
+		cost = 30
+		days_remove = 10
+		days_re_enable = 50
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			random_list = {
+				33 = {
+					GER = {
+						add_timed_idea = {
+							idea = bombed_enigma
+							days = 30
+						}
+					}
+					country_event = {
+						id = ULTRA_event.8
+					}
+				}
+				67 = {
+					add_political_power = -10
+					country_event = {
+						id = ULTRA_event.9
+					}
+				}
+			}
+		}
+		
+		is_good = yes
+	}
+	
+}
+
+ultra_cat = {
+	
+	ultra_break_enigma = {
+		icon = generic_propaganda
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		visible = {
+			has_idea = ultra_idea
+			original_tag = ENG
+			GER = {
+				NOT = {
+					has_idea = broken_enigma
+				}
+			}
+		}
+		
+		available = {
+			has_idea = ultra_idea
+			has_tech = improved_decryption
+			has_war_with = GER
+			GER = {
+				NOT = {
+					has_idea = bombed_enigma
+				}
+				NOT = {
+					has_idea = broken_enigma
+				}
+			}
+		}
+		
+		cost = 150
+		days_remove = 60
+		days_re_enable = 30
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			random_list = {
+				50 = {
+					GER = {
+						add_timed_idea = {
+							idea = bombed_enigma
+							days = 30
+						}
+					}
+					country_event = {
+						id = ULTRA_event.11
+					}
+				}
+				20 = {
+					GER = {
+						add_ideas = broken_enigma
+					}
+					country_event = {
+						id = ULTRA_event.10
+					}
+				}
+				30 = {
+					add_political_power = -50
+					country_event = {
+						id = ULTRA_event.12
+					}
+				}
+			}
+		}
+		
+		is_good = yes
+	}
+	
+	ultra_decrypt_german_com = {
+		icon = generic_propaganda
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		visible = {
+			has_idea = ultra_idea
+			original_tag = ENG
+			GER = {
+				NOT = {
+					has_idea = broken_enigma
+				}
+			}
+		}
+		
+		available = {
+			has_idea = ultra_idea
+			has_tech = improved_decryption
+			has_war_with = GER
+			GER = {
+				NOT = {
+					has_idea = bombed_enigma
+				}
+				NOT = {
+					has_idea = broken_enigma
+				}
+			}
+		}
+		
+		cost = 30
+		days_remove = 10
+		days_re_enable = 50
+		
+		ai_will_do = {
+			factor = 100
+		}
+		
+		modifier = {
+			
+		}
+		
+		remove_effect = {
+			random_list = {
+				67 = {
+					GER = {
+						add_timed_idea = {
+							idea = bombed_enigma
+							days = 30
+						}
+					}
+					country_event = {
+						id = ULTRA_event.8
+					}
+				}
+				33 = {
+					add_political_power = -10
+					country_event = {
+						id = ULTRA_event.9
+					}
+				}
+			}
+		}
+		
+		is_good = yes
+	}
+	
+
+}

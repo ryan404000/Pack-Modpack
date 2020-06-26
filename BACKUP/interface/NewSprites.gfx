@@ -1,0 +1,55 @@
+spriteTypes = {	
+	
+	####SHOCKTROOPERS####
+	
+	SpriteType = {
+		name = "GFX_shocktroops4_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_04.dds"
+	}
+	SpriteType = {
+		name = "GFX_shocktroops3_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_03.dds"
+	}
+	SpriteType = {
+		name = "GFX_shocktroops2_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_02.dds"
+	}
+	SpriteType = {
+		name = "GFX_shocktroops_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_shocktroops_01.dds"
+	}
+	
+	####JAEGARS####
+	
+	SpriteType = {
+	name = "GFX_jaegers4_medium"
+	texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_04.dds"
+	}
+	SpriteType = {
+		name = "GFX_jaegers3_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_03.dds"
+	}
+	SpriteType = {
+		name = "GFX_jaegers2_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_02.dds"
+	}
+	SpriteType = {
+		name = "GFX_jaegers_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_jaegers_01.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_marines_a_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_marines4.dds"
+	}
+	}	
+
+	SpriteType = {
+		name = "GFX_mountaineers_a_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_mountaineers4.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_paratroopers_a_medium"
+		texturefile = "gfx/interface/technologies/infantry/special_forces/r56_tech_paratroopers_04.dds"
+	}		

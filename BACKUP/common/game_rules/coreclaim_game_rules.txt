@@ -1,0 +1,42 @@
+coring_cost_setting = {
+	name = "CORING_COST_SETTING"
+	group = "RULE_GROUP_MOD_OPTION"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_CORING_COST_DESC"
+	}
+	option = {
+		name = MODIFY
+		text = "RULE_OPTION_MODIFY_COST"
+		desc = "RULE_OPTION_MODIFY_COST_DESC"
+	}
+}
+coring_ai = {
+	name = "CORING_AI"
+	group = "RULE_GROUP_MOD_OPTION"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_CORING_DESC"
+	}
+	option = {
+		name = NOT_CORING
+		text = "RULE_OPTION_BLOCKED"
+		desc = "RULE_OPTION_NOT_CORING_DESC"
+	}
+}
+claim_ai = {
+	name = "CLAIM_AI"
+	group = "RULE_GROUP_MOD_OPTION"
+	default = {
+		name = DEFAULT
+		text = "RULE_OPTION_DEFAULT"
+		desc = "RULE_OPTION_DEFAULT_CLAIM_DESC"
+	}
+	option = {
+		name = NOT_CLAIM
+		text = "RULE_OPTION_BLOCKED"
+		desc = "RULE_OPTION_NOT_CLAIM_DESC"
+	}
+}

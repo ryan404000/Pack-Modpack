@@ -1,0 +1,78 @@
+spriteTypes = {	
+
+	spriteType = {
+        name = "GFX_idea_de_gaulle_pic"
+        texturefile = "gfx/interface/ideas/idea_de_gaulle_pic.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_idea_tojo_pic"
+        texturefile = "gfx/interface/ideas/idea_tojo_pic.dds"
+    }
+	
+	spriteType = {
+        name = "GFX_idea_goering_pic"
+        texturefile = "gfx/interface/ideas/idea_goering.dds"
+    }
+	
+	spriteType = {
+		name = "GFX_idea_massive_draft"
+		texturefile = "gfx/interface/ideas/idea_massive_draft.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_agrarian_eco"
+		texturefile = "gfx/interface/ideas/agrarian.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_capitalism_eco"
+		texturefile = "gfx/interface/ideas/capitalism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_corporatism_eco"
+		texturefile = "gfx/interface/ideas/corporatism.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_mixed_eco"
+		texturefile = "gfx/interface/ideas/mixed_eco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_nazism_eco"
+		texturefile = "gfx/interface/ideas/nazism_eco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_planned_eco"
+		texturefile = "gfx/interface/ideas/planned_eco.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_enigma"
+		texturefile = "gfx/interface/ideas/idea_enigma.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ansaldo"
+		texturefile = "gfx/interface/ideas/idea_ansaldo.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_skoda_works"
+		texturefile = "gfx/interface/ideas/idea_cze_skoda_works.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_auftragstaktik"
+		texturefile = "gfx/interface/ideas/auftragstaktik.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_GER_reichskommissariats"
+		texturefile = "gfx/interface/ideas/reichskommissariats.dds"
+	}
+
+}

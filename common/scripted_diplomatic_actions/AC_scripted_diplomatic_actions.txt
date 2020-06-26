@@ -14,12 +14,14 @@ scripted_diplomatic_actions = {
         }
 
         selectable = { 
-            NOT = { 
-                ROOT = { has_country_flag = AC_request_construction_permission_REQUESTED }
-            } 
+            hidden_trigger = {
+                NOT = { 
+                    ROOT = { has_country_flag = AC_request_construction_permission_REQUESTED }
+                } 
+            }
         }
 
-        on_sent_effect = {
+        reject_effect = {
             if = { limit = { ROOT = { is_ai = no } }
                 ROOT = { set_country_flag = { flag = AC_request_construction_permission_REQUESTED value = 1 days = 2 } }
             }
@@ -115,11 +117,8 @@ scripted_diplomatic_actions = {
             } 
         }
 
-        on_sent_effect = {
-            if = { limit = { is_ai = no }
-                ROOT = { set_country_flag = { flag = AC_revoke_construction_permission_REQUESTED value = 1 days = 2 } }
-            }
-            else = {
+        reject_effect = {
+            if = { limit = { is_ai = yes }
                 ROOT = { set_country_flag = { flag = AC_revoke_construction_permission_REQUESTED value = 1 days = 365 } }
             }
 		}
@@ -146,6 +145,8 @@ scripted_diplomatic_actions = {
 				}
             }
 		}
+
+        requires_acceptance = no
 
         show_acceptance_on_action_button = no
 

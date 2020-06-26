@@ -1,0 +1,40 @@
+state={
+	id=852
+	name="STATE_852"
+	resources={
+		tungsten=10
+		iron=55
+	}
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 7
+			dockyard = 4
+			9832 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			11830 5 
+		}
+		victory_points = {
+			9850 5
+		}
+		victory_points = {
+			9847 3
+		}
+		victory_points = {
+			6909 3
+		}
+	}
+	provinces={
+		6909 9832 9847 9850 11830 
+	}
+	manpower = 2351125
+	buildings_max_level_factor=1.000
+		state_category=city
+}

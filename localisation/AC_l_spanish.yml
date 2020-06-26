@@ -27,7 +27,7 @@
 
 
  AC_project_0_text:0 "[?AC_project_assigned_factories^0]xCiv  |  §Y[AC_GetConstructionTypeProject0]§!  x[?AC_project_build_amount^0]  in  [From.GetName]" 
- AC_project_0_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^0] days\nConstruction speed factor: x[?AC_project_construction_speed_display^0]\n\nRight click to see the target state."
+ AC_project_0_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^0] days\nConstruction speed penalty: [?AC_project_construction_speed_display^0]%\n\nRight click to see the target state."
 
  AC_project_0_decision:0 "[AC_GetProjectText0]"
  AC_project_0_decision_desc:0 "[AC_GetProjectDesc0]"
@@ -38,7 +38,7 @@
 
 
  AC_project_1_text:0 "[?AC_project_assigned_factories^1]xCiv  |  §Y[AC_GetConstructionTypeProject1]§!  x[?AC_project_build_amount^1]  in  [From.GetName]"
- AC_project_1_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^1] days\nConstruction speed factor: x[?AC_project_construction_speed_display^1]\n\nRight click to see the target state."
+ AC_project_1_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^1] days\nConstruction speed penalty: [?AC_project_construction_speed_display^1]%\n\nRight click to see the target state."
  
  AC_project_1_decision:0 "[AC_GetProjectText1]"
  AC_project_1_decision_desc:0 "[AC_GetProjectDesc1]"
@@ -49,7 +49,7 @@
 
 
  AC_project_2_text:0 "[?AC_project_assigned_factories^2]xCiv  |  §Y[AC_GetConstructionTypeProject2]§!  x[?AC_project_build_amount^2]  in  [From.GetName]"
- AC_project_2_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^2] days\nConstruction speed factor: x[?AC_project_construction_speed_display^2]\n\nRight click to see the target state."
+ AC_project_2_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^2] days\nConstruction speed penalty: [?AC_project_construction_speed_display^2]%\n\nRight click to see the target state."
 
  AC_project_2_decision:0 "[AC_GetProjectText2]"
  AC_project_2_decision_desc:0 "[AC_GetProjectDesc2]"
@@ -60,7 +60,7 @@
  
 
  AC_project_3_text:0 "[?AC_project_assigned_factories^3]xCiv  |  §Y[AC_GetConstructionTypeProject3]§!  x[?AC_project_build_amount^3]  in  [From.GetName]"
- AC_project_3_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^3] days\nConstruction speed factor: x[?AC_project_construction_speed_display^3]\n\nRight click to see the target state."
+ AC_project_3_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^3] days\nConstruction speed penalty: [?AC_project_construction_speed_display^3]%\n\nRight click to see the target state."
 
  AC_project_3_decision:0 "[AC_GetProjectText3]"
  AC_project_3_decision_desc:0 "[AC_GetProjectDesc3]"
@@ -71,7 +71,7 @@
 
 
  AC_project_4_text:0 "[?AC_project_assigned_factories^4]xCiv  |  §Y[AC_GetConstructionTypeProject4]§!  x[?AC_project_build_amount^4]  in  [From.GetName]"
- AC_project_4_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^4] days\nConstruction speed factor: x[?AC_project_construction_speed_display^4]\n\nRight click to see the target state."
+ AC_project_4_desc:0 "\nTotal construction time: [?AC_project_total_construction_duration_display^4] days\nConstruction speed penalty: [?AC_project_construction_speed_display^4]%\n\nRight click to see the target state."
 
  AC_project_4_decision:0 "[AC_GetProjectText4]"
  AC_project_4_decision_desc:0 "[AC_GetProjectDesc4]"

@@ -188,7 +188,7 @@ country_event = {
 		for_each_scope_loop = { array = AC_construction_permissions
 
 			# modifier 
-			if = { limit = { any_state = { is_controlled_by = PREV days_since_last_strategic_bombing < 10 } any_enemy_country = { has_deployed_air_force_size = { size > 800 type = strategic_bomber } } } ROOT = { set_country_flag = AC_AI_antiair_needed } }
+			if = { limit = { any_owned_state = { is_controlled_by = PREV days_since_last_strategic_bombing < 10 } any_enemy_country = { has_deployed_air_force_size = { size > 800 type = strategic_bomber } } } ROOT = { set_country_flag = AC_AI_antiair_needed } }
 
 			for_each_scope_loop = { array = controlled_states
 
@@ -197,7 +197,7 @@ country_event = {
 						free_building_slots = { building = infrastructure size < 10 include_locked = no } # not impassable state
 						NOT = { 
 							is_in_array = { array = AC_projects_in_state value = ROOT.id } 
-							ROOT = { has_war_with = PREV }
+							PREV = { has_war_with = ROOT }
 						}
 					}
 					
@@ -269,7 +269,6 @@ country_event = {
 
 			# limit build amount to available PP
 			AC_calc_pp_cost = yes
-
 			while_loop_effect = { limit = { check_variable = { AC_project_political_power_cost^-1 > political_power } }
 				
 				subtract_from_variable = { AC_project_build_amount^-1 = 1 }

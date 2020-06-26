@@ -1,0 +1,35 @@
+spriteTypes = {	
+
+#####large icons (used in the division template screen)#####
+
+#####infantry-motorized#####
+
+	spriteType = { name = "GFX_unit_motorized_anti_air_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_anti_air_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_motorized_artillery_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_art_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_motorized_rocket_artillery_brigade_icon_medium"				textureFile = "gfx/interface/counters/divisions_large/unit_rocket_art_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_motorized_anti_tank_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_at_icon.dds" noOfFrames = 2 }	
+
+#####mobile-motorized#####
+	
+	spriteType = { name = "GFX_unit_mobile_anti_air_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_anti_air_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mobile_artillery_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_art_icon.dds" noOfFrames = 2 }
+	spriteType = { name = "GFX_unit_mobile_anti_tank_brigade_icon_medium"						textureFile = "gfx/interface/counters/divisions_large/unit_at_icon.dds" noOfFrames = 2 }	
+
+	
+#####small icons (when hovering over the division)#####
+
+#####infantry-motorized#####
+
+	spriteType = { name = "GFX_unit_motorized_anti_air_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_anti_air_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_motorized_artillery_brigade_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_art_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_motorized_rocket_artillery_brigade_icon_medium_white"			textureFile = "gfx/interface/counters/divisions_small/onmap_unit_rocket_artillery_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_motorized_anti_tank_brigade_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_at_icon.dds" noOfFrames = 2}
+
+#####mobile-motorized#####
+
+	spriteType = { name = "GFX_unit_mobile_anti_air_brigade_icon_medium_white"					textureFile = "gfx/interface/counters/divisions_small/onmap_unit_anti_air_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_mobile_artillery_brigade_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_art_icon.dds" noOfFrames = 2}
+	spriteType = { name = "GFX_unit_mobile_anti_tank_brigade_icon_medium_white"				textureFile = "gfx/interface/counters/divisions_small/onmap_unit_at_icon.dds" noOfFrames = 2}	
+
+	
+}

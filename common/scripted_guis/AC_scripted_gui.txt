@@ -40,21 +40,21 @@ scripted_gui = {
 				image = "[AC_GetRadarButtonTexture]"
 			}
 
-			#AC_building_mic_button = {
-			#	image = "[AC_GetMicButtonTexture]"
-			#}
+			AC_building_mic_button = {
+				image = "[AC_GetMicButtonTexture]"
+			}
 			
-			#AC_building_cic_button = {
-			#	image = "[AC_GetCicButtonTexture]"
-			#}
+			AC_building_cic_button = {
+				image = "[AC_GetCicButtonTexture]"
+			}
 			
-			#AC_building_nic_button = {
-			#	image = "[AC_GetNicButtonTexture]"
-			#}
+			AC_building_nic_button = {
+				image = "[AC_GetNicButtonTexture]"
+			}
 			
-			#AC_building_ref_button = {
-			#	image = "[AC_GetRefButtonTexture]"
-			#}
+			AC_building_ref_button = {
+				image = "[AC_GetRefButtonTexture]"
+			}
 		}
 
 		effects = {
@@ -92,7 +92,7 @@ scripted_gui = {
 
 				ROOT = {
 					add_to_variable = { AC_project_assigned_factories^-1 = 1 }
-					clamp_variable = { var = AC_project_assigned_factories^-1 min = 1 max = 10 }
+					clamp_variable = { var = AC_project_assigned_factories^-1 min = 1 max = 15 }
 					if = { limit = { check_variable = { AC_project_assigned_factories^-1 > num_of_civilian_factories_available_for_projects } } # clamp throws errors
 						set_variable = { AC_project_assigned_factories^-1 = num_of_civilian_factories_available_for_projects }
 					}
@@ -105,7 +105,7 @@ scripted_gui = {
 
 				ROOT = {
 					add_to_variable = { AC_project_assigned_factories^-1 = 5 }
-					clamp_variable = { var = AC_project_assigned_factories^-1 min = 1 max = 10 }
+					clamp_variable = { var = AC_project_assigned_factories^-1 min = 1 max = 15 }
 					if = { limit = { check_variable = { AC_project_assigned_factories^-1 > num_of_civilian_factories_available_for_projects } }
 						set_variable = { AC_project_assigned_factories^-1 = num_of_civilian_factories_available_for_projects }
 					}
@@ -118,7 +118,7 @@ scripted_gui = {
 
 				ROOT = {
 					subtract_from_variable = { AC_project_assigned_factories^-1 = 1 }
-					clamp_variable = { var = AC_project_assigned_factories^-1 min = 1 max = 10 }
+					clamp_variable = { var = AC_project_assigned_factories^-1 min = 1 max = 15 }
 					if = { limit = { check_variable = { AC_project_assigned_factories^-1 > num_of_civilian_factories_available_for_projects } }
 						set_variable = { AC_project_assigned_factories^-1 = num_of_civilian_factories_available_for_projects }
 					}
@@ -131,7 +131,7 @@ scripted_gui = {
 
 				ROOT = {
 					subtract_from_variable = { AC_project_assigned_factories^-1 = 5 }
-					clamp_variable = { var = AC_project_assigned_factories^-1 min = 1 max = 10 }
+					clamp_variable = { var = AC_project_assigned_factories^-1 min = 1 max = 15 }
 					if = { limit = { check_variable = { AC_project_assigned_factories^-1 > num_of_civilian_factories_available_for_projects } }
 						set_variable = { AC_project_assigned_factories^-1 = num_of_civilian_factories_available_for_projects }
 					}
@@ -302,41 +302,41 @@ scripted_gui = {
 
 			######### SHARED BUILDINGS
 
-			#AC_building_mic_button_click = {
+			AC_building_mic_button_click = {
 
-				#ROOT = {
-					#set_variable = { AC_project_building_type^-1 = 5 }
+				ROOT = {
+					set_variable = { AC_project_building_type^-1 = 5 }
 
-					#AC_update_gui = yes
-				#}
-			#}
+					AC_update_gui = yes
+				}
+			}
 
-			#AC_building_cic_button_click = {
+			AC_building_cic_button_click = {
 
-				#ROOT = {
-					#set_variable = { AC_project_building_type^-1 = 6 }
+				ROOT = {
+					set_variable = { AC_project_building_type^-1 = 6 }
 
-					#AC_update_gui = yes
-				#}
-			#}
+					AC_update_gui = yes
+				}
+			}
 
-			#AC_building_nic_button_click = {
+			AC_building_nic_button_click = {
 
-				#ROOT = {
-					#set_variable = { AC_project_building_type^-1 = 7 }
+				ROOT = {
+					set_variable = { AC_project_building_type^-1 = 7 }
 
-					#AC_update_gui = yes
-				#}
-			#}
+					AC_update_gui = yes
+				}
+			}
 
-			#AC_building_ref_button_click = {
+			AC_building_ref_button_click = {
 
-				#ROOT = {
-					#set_variable = { AC_project_building_type^-1 = 8 }
+				ROOT = {
+					set_variable = { AC_project_building_type^-1 = 8 }
 
-					#AC_update_gui = yes
-				#}
-			#}
+					AC_update_gui = yes
+				}
+			}
 		}
 
 		triggers = {
@@ -348,8 +348,8 @@ scripted_gui = {
 					ROOT = {
 
 						meta_trigger = {
-							text = { check_variable = { ROOT.AC_active_projects < 6 } } #[x] 
-							#x = "[AC_GetMaxProjects]"
+							text = { check_variable = { ROOT.AC_active_projects < [x] } }
+							x = "[AC_GetMaxProjects]"
 						}
 
 						check_variable = { AC_project_building_type^-1 > 0 }
@@ -383,25 +383,25 @@ scripted_gui = {
 
 						######### SHARED BUILDINGS
 
-						#if = { limit = { check_variable = { AC_project_building_type^-1 = 5 } }
+						if = { limit = { check_variable = { AC_project_building_type^-1 = 5 } }
 
-							#PREV = { AC_building_mic_available = yes }
-						#}
+							PREV = { AC_building_mic_available = yes }
+						}
 
-						#if = { limit = { check_variable = { AC_project_building_type^-1 = 6 } }
+						if = { limit = { check_variable = { AC_project_building_type^-1 = 6 } }
 
-							#PREV = { AC_building_cic_available = yes }
-						#}
+							PREV = { AC_building_cic_available = yes }
+						}
 
-						#if = { limit = { check_variable = { AC_project_building_type^-1 = 7 } }
+						if = { limit = { check_variable = { AC_project_building_type^-1 = 7 } }
 
-							#PREV = { AC_building_nic_available = yes }
-						#}
+							PREV = { AC_building_nic_available = yes }
+						}
 
-						#if = { limit = { check_variable = { AC_project_building_type^-1 = 8 } }
+						if = { limit = { check_variable = { AC_project_building_type^-1 = 8 } }
 
-							#PREV = { AC_building_ref_available = yes }
-						#}
+							PREV = { AC_building_ref_available = yes }
+						}
 					}
 				}
 			}

@@ -1,0 +1,64 @@
+#####---------------------------------------------------------------------> Mod by Sig "GreatExperiment" Altre
+
+ideas = {
+
+	country = {
+
+		r56i_idea_riots = {
+		
+			picture = r56i_idea_riots_ongoing
+			
+			modifier = {
+				surrender_limit = -0.10
+				local_factory_sabotage = 0.25
+			}
+
+		}
+		
+		r56i_idea_riots_escalate = {
+		
+			picture = r56i_idea_riots_increase
+			
+			modifier = {
+				surrender_limit = -0.25
+				local_factory_sabotage = 0.50
+			}
+
+		}
+
+		r56i_idea_suppress_harsh = {
+		
+			picture = r56i_idea_riots_suppress
+			
+			modifier = {
+				political_power_cost = 0.25
+				local_factory_sabotage = 0.05
+			}
+
+		}
+
+		r56i_idea_suppress_talks = {
+		
+			picture = r56i_idea_riots_talks
+			
+			modifier = {
+				political_power_cost = 0.05
+				local_factory_sabotage = 0.05
+			}
+
+		}
+
+		r56i_idea_suppress_spend = {
+		
+			picture = chi_army_corruption
+			
+			modifier = {
+				industrial_capacity_factory = -0.05
+				local_factory_sabotage = 0.05
+			}
+
+		}
+
+	}
+
+}

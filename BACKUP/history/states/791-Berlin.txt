@@ -1,0 +1,28 @@
+
+state={
+	id=791
+	name="STATE_791"
+
+	history={
+		owner = GER
+		victory_points = {
+			3499 50 
+		}
+		buildings = {
+			infrastructure = 10
+			arms_factory = 6
+			industrial_complex = 5
+			air_base = 8
+
+		}
+		add_core_of = GER
+
+	}
+
+	provinces={
+		3499 
+	}
+	manpower=4226584
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+}

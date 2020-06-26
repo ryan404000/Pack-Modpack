@@ -1,0 +1,32 @@
+guiTypes.containerWindowType.instantTextBoxType = {
+	name ="experience_value"
+	position = { x=777 y=9 }
+	font = "hoi_18mbs"
+	text = "9999"
+	format = center
+	maxWidth = 45
+	maxHeight = 24
+	fixedsize = yes
+}
+
+guiTypes.containerWindowType.instantTextBoxType = {
+	name ="navy_experience_value"
+	position = { x= 848 y = 9 }
+	font = "hoi_18mbs"
+	text = "9999"
+	format = center
+	maxWidth = 46
+	maxHeight = 24
+	fixedsize = yes
+}
+
+guiTypes.containerWindowType.instantTextBoxType = {
+	name ="air_experience_value"
+	position = { x= 921 y = 9 }
+	font = "hoi_18mbs"
+	text = "9999"
+	format = center
+	maxWidth = 46
+	maxHeight = 24
+	fixedsize = yes
+}

@@ -1,0 +1,15 @@
+version="1.9.*"
+tags={
+	"Events"
+	"Gameplay"
+	"Historical"
+	"National Focuses"
+	"Map"
+	"Military"
+	"Fixes"
+	"Balance"
+	"Technologies"
+	"Alternative History"
+}
+name="PACK Modpack-dev"
+remote_file_id="1905828828"

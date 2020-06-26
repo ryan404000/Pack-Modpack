@@ -1669,7 +1669,7 @@ focus_tree = {
 						instant_build = yes
 					}
 					add_building_construction = {
-						type = synthetic_rubber_refinery
+						type = synthetic_refinery
 						level = 2
 						instant_build = yes
 					}

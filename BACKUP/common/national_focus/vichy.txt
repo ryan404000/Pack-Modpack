@@ -1,0 +1,633 @@
+focus_tree = {
+	id = vichy_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = VIC
+		}
+		
+	}
+	
+	default = no
+
+	focus = {
+		id = VIC_french_state	
+		icon = GFX_goal_support_fascism
+		x = 8
+		y = 0
+		cost = 10
+		ai_will_do = {
+			factor = 12
+		}
+		
+		completion_reward = {
+			add_popularity = {
+				ideology = fascism
+				popularity = 0.15
+			}
+			add_stability = 0.1
+			add_political_power = 150
+		}
+		
+	}
+	
+	focus = {
+		id = VIC_travail
+		icon = GFX_goal_generic_construct_civilian
+		prerequisite = { focus = VIC_french_state }
+		x = -3
+		y = 1
+		relative_position_id = VIC_french_state
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+		
+		completion_reward = {
+			add_ideas = {
+				civilian_economy
+			}
+		}
+		
+	}
+	
+	focus = {
+		id = VIC_famille
+		icon = GFX_goal_generic_national_unity
+		prerequisite = { focus = VIC_french_state }
+		x = 0
+		y = 1
+		relative_position_id = VIC_french_state
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+		
+		completion_reward = {
+			add_ideas = {
+				VIC_family_policy
+			}
+		}
+	
+	}
+	
+	focus = {
+		id = VIC_patrie
+		icon = GFX_goal_support_fascism
+		prerequisite = { focus = VIC_french_state }
+		x = 3
+		y = 1
+		relative_position_id = VIC_french_state
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = communism
+				popularity = -0.15
+			}
+			add_popularity = {
+				ideology = democratic
+				popularity = -0.15
+			}
+		}
+	}
+	
+	focus = {
+		id = VIC_revolution_nationale
+		icon =  GFX_goal_anschluss
+		prerequisite = { focus = VIC_travail }
+		prerequisite = { focus = VIC_famille }
+		prerequisite = { focus = VIC_patrie }
+		x = 0
+		y = 1
+		relative_position_id = VIC_famille
+		cost = 10
+		ai_will_do = {
+			factor = 9
+		}
+		
+		completion_reward = {
+			add_stability = 0.2
+			add_political_power = 200
+		}
+	}
+	
+	focus = {
+		id = VIC_grands_travaux
+		icon = GFX_goal_generic_construct_infrastructure
+		prerequisite = {focus = VIC_revolution_nationale}
+		x = -5
+		y = 1
+		relative_position_id = VIC_revolution_nationale
+		cost = 10
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_ideas = VIC_grands_travaux
+			
+		}
+	
+	}
+	
+	focus = {
+		id = VIC_foreign_policy
+		icon = GFX_goal_anschluss
+		prerequisite = {focus = VIC_revolution_nationale}
+		x = 5
+		y = 1
+		relative_position_id = VIC_revolution_nationale
+		cost = 5
+		ai_will_do = {
+			factor = 5
+		}
+		
+		completion_reward = {
+			add_political_power = 120
+		}
+	
+	}
+	
+	focus = {
+		id = VIC_STOf
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = {focus = VIC_foreign_policy}
+		x = 0
+		y = 2
+		relative_position_id = VIC_foreign_policy
+		cost = 10
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_manpower = 100000
+			add_ideas = VIC_STO
+			add_ideas = volunteer_only
+			GER = {
+				add_ideas = GER_STO
+			}
+		}
+		
+	
+	}
+	
+	focus = {
+		id = VIC_collaboration
+		icon = GFX_focus_CZE_german_puppet
+		prerequisite = {focus = VIC_foreign_policy }
+		x = -3
+		y = 1
+		relative_position_id = VIC_foreign_policy
+		mutually_exclusive = {focus = VIC_shield}
+		ai_will_do = {
+			factor = 7
+		}
+		cost = 10
+		
+		completion_reward = {
+			IF = {
+				limit = {
+					GER = {
+						has_government = fascism
+					}
+				}
+				set_country_leader_ideology = fascism_ideology
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.2
+				}
+				set_politics = {
+					ruling_party = fascism
+				}
+				
+				create_country_leader = {
+						name = "Philippe Pétain"
+						desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
+						picture = "Portrait_Vichy_Philippe_Petain.dds"
+						expire = "1965.1.1"
+						ideology = fascism_ideology
+						traits = {
+							anti_communist
+							fascist_sympathies
+							popular_figurehead
+						}
+				}		
+			}
+			IF = {
+				limit = {
+					GER = {
+						has_government = neutrality
+					}
+				}
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.2
+				}
+				set_politics = {
+					ruling_party = neutrality
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = VIC_milice
+		icon = GFX_goal_generic_propaganda
+		prerequisite = {focus = VIC_collaboration}
+		x = 0
+		y = 1
+		relative_position_id = VIC_collaboration
+		ai_will_do = {
+			factor = 7
+		}
+		cost = 10
+		
+		completion_reward = {
+			FRA = {
+				add_ideas = FRA_vichy_milice
+			}
+		}			
+	}
+	
+	focus = {
+		id = VIC_LVF
+		icon = GFX_goal_generic_axis_build_infantry
+		prerequisite = { focus = VIC_milice }
+		prerequisite = { focus = VIC_STOf }
+		x = 0
+		y = 1
+		relative_position_id = VIC_milice
+		bypass = {
+			GER = {
+				NOT = {
+					has_war_with = SOV
+				}
+			}
+			any_country = {
+				OR = {
+					original_tag = GER
+					is_in_faction_with = GER
+				}
+				controls_state = 219 #moscow
+				controls_state = 217 #stalingrad
+
+			}
+		}
+		available = {
+			GER = {
+				has_war_with = SOV
+			}
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		cost = 10
+		
+		completion_reward = {
+			VIC = {
+				add_manpower = -6500
+			}
+			GER = {
+				add_manpower = 6500
+			}
+		}
+	}
+	
+	focus = {
+		id = VIC_charlemagne
+		icon = GFX_focus_ger_revive_kaiserreich
+		prerequisite = { focus = VIC_LVF }
+		x = 0
+		y = 1
+		relative_position_id = VIC_LVF
+		bypass = {
+			GER = {
+				NOT = {
+					has_war_with = SOV
+				}
+			}
+			any_country = {
+				OR = {
+					original_tag = GER
+					is_in_faction_with = GER
+				}
+				controls_state = 219 #moscow
+				controls_state = 217 #stalingrad
+
+			}
+		}
+		available = {
+			GER = {
+				has_war_with = SOV
+			}
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		cost = 10
+		
+		completion_reward = {
+			VIC = {
+				add_manpower = -8000
+			}
+			custom_effect_tooltip = charlemagne_tooltip
+		}
+	}
+	
+	focus = {
+		id = VIC_reich_puppet
+		icon = GFX_focus_chi_mission_to_germany
+		prerequisite = { focus = VIC_charlemagne }
+		x = 0
+		y = 1
+		relative_position_id = VIC_charlemagne
+		available = {
+			GER = {
+				has_war_with = ENG
+			}
+		}
+		ai_will_do = {
+			factor = 7
+		}
+		cost = 50
+		
+		completion_reward = {
+			custom_effect_tooltip = Vichy_puppet_tooltip
+			GER = {
+				country_event = {id = vichy.2}
+			}
+		}
+		
+	}
+	
+	
+	focus = {
+		id = VIC_shield
+		icon = GFX_goal_generic_defence
+		prerequisite = {focus = VIC_foreign_policy }
+		x = 3
+		y = 1
+		relative_position_id = VIC_foreign_policy
+		mutually_exclusive = {focus = VIC_collaboration}
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		cost = 10
+		completion_reward = {
+			add_popularity = {
+					ideology = democratic
+					popularity = 0.2
+			}
+		}
+		
+	}
+	
+	focus = {
+		id = VIC_resistance
+		icon = GFX_goal_generic_military_sphere
+		prerequisite = {focus = VIC_shield}
+		x = 0
+		y = 1
+		relative_position_id = VIC_shield
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		cost = 10
+		
+		completion_reward = {
+			FRA = {
+				add_ideas = FRA_passive_resistance
+			}
+		}
+	}
+	
+	focus = {
+		id = VIC_free_france
+		icon = GFX_goal_generic_allies_build_infantry
+		prerequisite = {focus = VIC_resistance}
+		prerequisite = { focus = VIC_STOf }
+		x = 0
+		y = 1
+		relative_position_id = VIC_resistance
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		cost = 10
+		available = {
+			GER = {has_war_with = ENG}
+		}
+		completion_reward = {
+			VIC = {
+				add_manpower = -100000
+			}
+			FRA = {
+				add_manpower = 100000
+			}
+		}
+	}
+	
+	focus = {
+		id = VIC_colonies
+		icon = GFX_focus_chi_reach_out_to_france
+		prerequisite = {focus = VIC_free_france}
+		x = 0
+		y = 1
+		relative_position_id = VIC_free_france
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		cost = 10
+		available = {
+			GER = {has_war_with = ENG}
+		}
+		completion_reward = {
+			FRA = {
+				transfer_state = 459
+				transfer_state = 458
+				transfer_state = 665
+				transfer_state = 460
+				transfer_state = 513
+				transfer_state = 461
+				transfer_state = 462
+				transfer_state = 514
+				transfer_state = 515
+				transfer_state = 557
+				transfer_state = 272
+				transfer_state = 556
+				transfer_state = 776
+				transfer_state = 777
+				transfer_state = 781
+				transfer_state = 778
+				transfer_state = 779
+				transfer_state = 780
+				transfer_state = 775
+				transfer_state = 782
+				transfer_state = 786
+				IF = {
+					limit = {
+						MAD = {
+							NOT = {is_subject_of = JAP}
+						}
+					}
+					annex_country = {
+						target = MAD
+						transfer_troops = yes
+					}
+				}
+				IF = {
+					limit = {
+						IDC = {
+							NOT = {is_subject_of = JAP}
+						}
+					}
+					annex_country = {
+						target = IDC
+						transfer_troops = yes
+					}
+				}
+				IF = {
+					limit = {
+						SYR = {
+							NOT = {is_subject_of = GER}
+						}
+					}
+					annex_country = {
+						target = SYR
+						transfer_troops = yes
+					}
+				}
+				IF = {
+					limit = {
+						LEB = {
+							NOT = {is_subject_of = GER}
+						}
+					}
+					annex_country = {
+						target = LEB
+						transfer_troops = yes
+					}
+				}
+				country_event = {id = france.240}
+			}
+		}
+	}
+	
+	focus = {
+		id = VIC_rearmament
+		icon = GFX_goal_generic_construct_mil_factory
+		prerequisite = {focus = VIC_colonies}
+		x = 0
+		y = 1
+		relative_position_id = VIC_colonies
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		available = {
+			GER = {has_war_with = SOV}
+			GER = {has_war_with = ENG}
+			GER = {has_war_with = USA}
+		}
+		cost = 20
+		
+		completion_reward = {
+			VIC = {
+				remove_ideas = VIC_recovering_from_war
+				add_ideas = partial_economic_mobilisation
+				add_ideas = extensive_conscription
+			}
+			25 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+			26 = {
+				add_extra_state_shared_building_slots = 5
+				add_building_construction = {
+					type = arms_factory
+					level = 5
+					instant_build = yes
+				}
+			}
+			
+		}
+	}
+	
+	focus = {
+		id = VIC_war_with_germany
+		icon = GFX_goal_generic_demand_territory
+		prerequisite = {focus = VIC_rearmament}
+		x = 0
+		y = 1
+		relative_position_id = VIC_rearmament
+		ai_will_do = {
+			factor = 3
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		available = {
+			GER = {has_war_with = SOV}
+			GER = {has_war_with = ENG}
+			GER = {has_war_with = USA}
+		}
+		cost = 30
+		completion_reward = {
+			VIC = {
+				annex_country = {
+					target = FRA
+					transfer_troops = yes
+				}
+				
+				declare_war_on = {
+					target = GER
+					type = annex_everything
+				}
+				
+			}
+			USA = {
+				add_to_faction = VIC
+			}
+			hidden_effect = {
+				every_state = {
+					limit = {
+						is_core_of = VIC
+					}
+					remove_core_of = FRA
+				}
+			}
+		}
+	}
+	
+	
+
+}

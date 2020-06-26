@@ -218,36 +218,36 @@ guiTypes = {
 
 		# SHARED BUILDINGS
 
-		#buttonType = {
-			#name = "AC_building_mic_button"
-			#position = { x=100 y=45 }
-			#spriteType = "GFX_AC_building_mic"
+		buttonType = {
+			name = "AC_building_mic_button"
+			position = { x=100 y=45 }
+			spriteType = "GFX_AC_building_mic"
 
-			#pdx_tooltip = "AC_construction_MIC"
-		#}
+			pdx_tooltip = "AC_construction_MIC"
+		}
 
-		#buttonType = {
-			#name = "AC_building_cic_button"
-			#position = { x=146 y=45 }
-			#spriteType = "GFX_AC_building_cic"
+		buttonType = {
+			name = "AC_building_cic_button"
+			position = { x=146 y=45 }
+			spriteType = "GFX_AC_building_cic"
 
-			#pdx_tooltip = "AC_construction_CIC"
-		#}
+			pdx_tooltip = "AC_construction_CIC"
+		}
 
-		#buttonType = {
-			#name = "AC_building_nic_button"
-			#position = { x=100 y=89 }
-			#spriteType = "GFX_AC_building_nic"
+		buttonType = {
+			name = "AC_building_nic_button"
+			position = { x=100 y=89 }
+			spriteType = "GFX_AC_building_nic"
 
-			#pdx_tooltip = "AC_construction_NIC"
-		#}
+			pdx_tooltip = "AC_construction_NIC"
+		}
 
-		#buttonType = {
-			#name = "AC_building_ref_button"
-			#position = { x=146 y=89 }
-			#spriteType = "GFX_AC_building_ref"
+		buttonType = {
+			name = "AC_building_ref_button"
+			position = { x=146 y=89 }
+			spriteType = "GFX_AC_building_ref"
 
-			#pdx_tooltip = "AC_construction_REF"
-		#}
+			pdx_tooltip = "AC_construction_REF"
+		}
 	}
 }

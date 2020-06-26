@@ -1,0 +1,560 @@
+USA_speeches_category = {
+
+	sp_usa_roosevelt_arsenal_of_democracy = {
+
+		icon = category_generic_industry
+
+		selectable_mission = yes
+		is_good = yes
+		fire_only_once = yes
+		days_mission_timeout = 40
+		days_remove = 40
+
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+			
+			date > 1940.12.01
+
+			date < 1941.06.01
+
+			USA = { has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
+				has_completed_focus = USA_arsenal_of_democracy
+				has_war = no
+			}
+
+			ENG = { has_war_with = GER }
+
+			FRA = { has_war_with = GER }
+
+		}
+
+		activation = {
+			
+			date > 1940.12.01
+
+			date < 1941.06.01
+
+			USA = { has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
+				has_completed_focus = USA_arsenal_of_democracy
+				has_war = no
+			}
+
+			ENG = { has_war_with = GER }
+
+			FRA = { has_war_with = GER }
+
+		}
+
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_roosevelt_arsenal_of_democracy
+			}
+	
+		}
+		
+	}
+
+
+	sp_usa_roosevelt_infamy_speech = {
+
+		icon = category_usa_intervention_mandate
+
+		selectable_mission = yes
+		is_good = yes
+		fire_only_once = yes
+		days_mission_timeout = 40
+		days_remove = 40
+
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+
+			USA = { has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
+				has_defensive_war = yes 
+				has_war_with = JAP
+			}	
+		}
+
+		activation = {
+			
+			USA = { has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
+				has_defensive_war = yes 
+				has_war_with = JAP
+			}
+		}
+
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_roosevelt_infamy_speech
+			}
+	
+		}
+		
+	}
+
+	
+	sp_usa_roosevelt_we_have_only_just_begun_to_fight = {
+
+		icon = category_generic_economy
+
+		selectable_mission = yes
+		is_good = yes
+		fire_only_once = yes
+		days_mission_timeout = 40
+		days_remove = 40
+
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+			
+			USA = { has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
+				has_completed_focus = USA_wpa
+				NOT = { has_completed_focus = USA_intervention_in_europe }
+				has_war = no
+				has_idea = new_deal
+			}
+		}
+
+		activation = {
+			
+			USA = { has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" }
+				has_completed_focus = USA_wpa
+				NOT = { has_completed_focus = USA_intervention_in_europe }
+				has_war = no
+				has_idea = new_deal
+			}
+		}
+
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_roosevelt_we_have_only_just_begun_to_fight
+			}
+	
+		}
+		
+	}
+
+	sp_usa_eisenhower_order_of_the_day = {
+
+		icon = category_military_operation
+
+		selectable_mission = yes
+		is_good = yes
+		fire_only_once = yes
+		days_mission_timeout = 40
+		days_remove = 40
+
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+			
+			date > 1944.06.06
+
+			date < 1944.12.31
+
+			USA = { is_in_faction = yes
+				has_war_with = GER
+				OR = { has_completed_focus = USA_army_of_the_united_states
+					has_completed_focus = USA_liberty_ships
+				}
+			}
+
+			OR  = { D01 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				D02 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				D03 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				GER = { has_government = fascism
+				controls_state = 14
+				controls_state = 15
+				controls_state = 16
+				}
+			}
+		}
+
+		activation = {
+			
+			date > 1944.06.06
+
+			date < 1944.12.31
+
+			USA = { is_in_faction = yes
+				has_war_with = GER
+				OR = { has_completed_focus = USA_army_of_the_united_states
+					has_completed_focus = USA_liberty_ships
+				}
+			}
+
+			OR  = { D01 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				D02 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				D03 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				GER = { has_government = fascism
+				controls_state = 14
+				controls_state = 15
+				controls_state = 16
+				}
+			}
+		}
+
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_eisenhower_order_of_the_day
+			}
+	
+		}
+		
+	}
+
+
+	sp_usa_order_of_the_day_with_music = {
+
+		icon = category_military_operation
+
+		selectable_mission = yes
+		is_good = yes
+		fire_only_once = yes
+		days_mission_timeout = 40
+
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+			
+			date > 1944.06.06
+
+			date < 1944.12.31
+
+			USA = { is_in_faction = yes
+				has_war_with = GER
+				OR = { has_completed_focus = USA_army_of_the_united_states
+					has_completed_focus = USA_liberty_ships
+				}
+			}
+
+			
+			OR  = { D01 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				D02 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				D03 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				GER = { has_government = fascism
+				controls_state = 14
+				controls_state = 15
+				controls_state = 16
+				}
+			}
+		}
+
+		activation = {
+			
+			date > 1944.06.06
+
+			date < 1944.12.31
+
+			USA = { is_in_faction = yes
+				has_war_with = GER
+				OR = { has_completed_focus = USA_army_of_the_united_states
+					has_completed_focus = USA_liberty_ships
+				}
+			}
+
+			
+			OR  = { D01 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				D02 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				D03 = { controls_state = 14
+					controls_state = 15
+					controls_state = 16
+				}
+				GER = { has_government = fascism
+				controls_state = 14
+				controls_state = 15
+				controls_state = 16
+				}
+			}
+		}
+
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_order_of_the_day_with_music
+			}
+	
+		}
+		
+	}
+
+
+	sp_usa_truman_the_surrender_of_germany = {
+
+		icon = category_generic_democracy
+
+		selectable_mission = yes
+		is_good = yes
+		fire_only_once = yes
+		days_mission_timeout = 40
+		days_remove = 40
+
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+
+			threat > 0.95
+			
+			USA = { has_country_leader = { ruling_only = yes name = "Harry S. Truman" } 
+				has_war_with = JAP
+				NOT = { has_war_with = GER }
+				NOT = { has_war_with = ITA }
+				NOT = { has_war_with = ROM }
+				NOT = { has_war_with = SPR }
+			}
+
+			USA = { is_in_faction_with = FRA
+				is_in_faction_with = ENG
+			}
+		}
+
+		activation = {
+
+			threat > 0.95
+			
+			USA = { has_country_leader = { ruling_only = yes name = "Harry S. Truman" } 
+				has_war_with = JAP
+				NOT = { has_war_with = GER }
+				NOT = { has_war_with = ITA }
+				NOT = { has_war_with = ROM }
+				NOT = { has_war_with = SPR }
+			}
+
+			USA = { is_in_faction_with = FRA
+				is_in_faction_with = ENG
+			}
+		}
+
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_truman_the_surrender_of_germany
+			}
+
+		}
+		
+	}
+
+
+	sp_usa_roosevelt_quarantine_speech_ma = {
+
+		icon = category_eng_imperial_conference
+
+		selectable_mission = yes
+		is_good = yes
+		fire_only_once = yes
+		days_mission_timeout = 40
+		days_remove = 40
+
+		allowed = {
+			tag = USA
+		}
+
+		available = {
+
+			date > 1937.10.05
+					
+			threat > 0.1
+
+			threat < 0.30
+
+			USA = { has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" } 
+				has_war = no
+				has_completed_focus = USA_intervention_in_europe
+			}
+			
+			GER = {	has_country_leader = { ruling_only = yes name = "Adolf Hitler" } 
+				has_completed_focus = GER_anti_comitern_pact
+				NOT = { has_completed_focus = GER_anschluss }
+				has_war = no
+			}
+
+			FRA = { has_war = no }
+
+			ENG = { has_war = no }
+
+			CZE = { has_war = no }
+
+			POL = { has_war = no }
+
+			ITA = { has_country_leader = { ruling_only = yes name = "Benito Mussolini" } }
+		}
+
+		activation = {
+			
+			date > 1937.10.05
+					
+			threat > 0.1
+
+			threat < 0.30
+
+			USA = { has_country_leader = { ruling_only = yes name = "Franklin Delano Roosevelt" } 
+				has_war = no
+				has_completed_focus = USA_intervention_in_europe
+			}
+			
+			GER = {	has_country_leader = { ruling_only = yes name = "Adolf Hitler" } 
+				has_completed_focus = GER_anti_comitern_pact
+				NOT = { has_completed_focus = GER_anschluss }
+				has_war = no
+			}
+
+			FRA = { has_war = no }
+
+			ENG = { has_war = no }
+
+			CZE = { has_war = no }
+
+			POL = { has_war = no }
+
+			ITA = { has_country_leader = { ruling_only = yes name = "Benito Mussolini" } }
+		}
+
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_roosevelt_quarantine_speech_ma
+			}
+	
+		}
+		
+	}
+
+
+	sp_usa_marines_hymn = {
+
+		icon = eng_propaganda_campaigns
+
+		cost = 0
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+
+		}	
+	
+		available = {	
+
+		}	
+	
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_marines_hymn
+			}
+	
+		}
+		
+	}
+
+
+	sp_usa_marines_hymn_acoustic_version = {
+
+		icon = eng_propaganda_campaigns
+
+		cost = 0
+
+		allowed = {
+			tag = USA
+		}
+
+		visible = {
+
+		}
+
+	
+		available = {
+
+		}
+	
+		complete_effect = {
+
+			hidden_effect = {
+				sound_effect = sp_usa_marines_hymn_acoustic_version
+			}
+	
+		}
+		
+	}
+
+	sp_usa_roosevelt_do_it = {
+			icon = eng_propaganda_campaigns
+	
+			cost = 0
+	
+			allowed = {
+				tag = USA
+			}
+	
+			visible = {
+	
+			}
+	
+		
+			available = {
+	
+			}
+		
+			complete_effect = {
+	
+				hidden_effect = {
+					sound_effect = sp_usa_roosevelt_do_it
+				}
+		
+			}
+			
+		}
+
+}

@@ -30,14 +30,14 @@
 
 AC_set_global_variables = {
 
-	set_variable = { global.AC_version = 2.01 }
+	set_variable = { global.AC_version = 2.02 }
 
 	### BUILDING CONSTRUCTION COSTS
 
-	set_variable = { global.BUILDING_INFRASTRUCTURE_COST   = 3500 }
-	set_variable = { global.BUILDING_AIRBASE_COST          = 600 }
-	set_variable = { global.BUILDING_ANTIAIR_COST          = 1500 }
-	set_variable = { global.BUILDING_RADAR_COST            = 1150 }
+	set_variable = { global.BUILDING_INFRASTRUCTURE_COST   = 3000 }
+	set_variable = { global.BUILDING_AIRBASE_COST          = 1250 }
+	set_variable = { global.BUILDING_ANTIAIR_COST          = 2500 }
+	set_variable = { global.BUILDING_RADAR_COST            = 3375 }
 	set_variable = { global.BUILDING_MILITARY_FACTORY_COST = 7200 }
 	set_variable = { global.BUILDING_CIVILIAN_FACTORY_COST = 10800 }
 	set_variable = { global.BUILDING_DOCKYARD_COST         = 6400 }
@@ -255,8 +255,6 @@ AC_add_finished_building = {
 
 AC_init_project = {
 
-	THIS = { set_temp_variable = { AC_target_state_infra_speed = infrastructure_level } }
-	
 	ROOT = {
 
 		### get construction speed modifiers and set building cost
@@ -269,6 +267,7 @@ AC_init_project = {
 
 		if = { limit = { check_variable = { AC_project_building_type^AC_project_type > 4 } }
 
+			set_temp_variable = { AC_target_state_infra_speed = PREV.infrastructure_level }
 			multiply_temp_variable = { AC_target_state_infra_speed = 0.1 }
 			add_to_temp_variable = { AC_target_state_infra_speed = 1 }
 			multiply_temp_variable = { AC_construction_speed = AC_target_state_infra_speed }
@@ -287,7 +286,7 @@ AC_init_project = {
 
 		### total factory output
 
-		multiply_temp_variable = { AC_construction_speed = 2.5 }
+		multiply_temp_variable = { AC_construction_speed = 5 }
 		multiply_temp_variable = { AC_construction_speed = AC_project_assigned_factories^AC_project_type }
 
 		### days to build
