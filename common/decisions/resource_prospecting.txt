@@ -4594,7 +4594,7 @@ prospect_for_resources = {
 			}
 		}
 	}
-exploit_libyan_steel = { #448
+	exploit_libyan_steel = { #448
 		icon = steel
 
 		allowed = {
