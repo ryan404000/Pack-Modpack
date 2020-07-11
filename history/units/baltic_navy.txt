@@ -1,0 +1,34 @@
+units = {
+
+		##### NAVAL OOB #####
+		fleet = {
+			name = "Eesti Sojalaevastikl"			
+			naval_base = 9340  # Riga
+			task_force = {
+				name = "Eesti Sojalaevastikl"
+				location = 9340  # Riga
+				ship = { name = "EML Kalev" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = EST version_name = "Kalev Class" } } }			
+				ship = { name = "EML Lembit" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = EST version_name = "Kalev Class" } } }			
+			}				
+		}
+		fleet = {
+			name = "Latvijas Juras Speki"			
+			naval_base = 9340 # Riga
+			task_force = {
+				name = "Latvijas Juras Speki"
+				location =  9340 # Riga
+				ship = { name = "Ronis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = LIT version_name = "Ronis Class" } } }
+				ship = { name = "Spidola" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = LIT version_name = "Ronis Class" } } }
+			}					
+		}
+		fleet = {	
+			name = "Smetona Flot"
+			naval_base = 3151
+			task_force = {
+				name = "Smetona Flot"
+				location = 9340 # Riga
+				ship = { name = "Prezidentas Smetona" definition = destroyer equipment = { destroyer_1 = {amount = 1 owner = LIT } } }
+			}
+		}
+
+}
