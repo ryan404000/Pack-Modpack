@@ -1,7 +1,15 @@
-version="1.0"
+version="v1.2"
 tags={
+	"Balance"
+	"Events"
+	"Fixes"
 	"Gameplay"
+	"Military"
+	"National Focuses"
+	"Technologies"
+	"Historical"
+	"Ideologies"
 }
-name="Pack Dev Build"
-picture="thumbnail.jpg"
+name="PACK Mod"
 supported_version="1.9.3"
+remote_file_id="2144760615"
