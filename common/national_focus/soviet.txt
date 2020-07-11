@@ -3045,7 +3045,7 @@
 		x = -3
 		y = 1
 		relative_position_id = SOV_finish_five_year_plan
-		cost = 15
+		cost = 18
 		ai_will_do = {
 			factor = 10
 			modifier = {
@@ -3055,7 +3055,7 @@
 		}
 
 		available = {
-			date > 1938.1.1
+			date > 1938.3.1
 		}
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
@@ -3070,6 +3070,7 @@
 			}
 		}
 		completion_reward = {
+			add_timed_idea = { idea = SOV_third_five_year_plan days = 1095 }
 			random_owned_controlled_state = {
 				limit = {
 					industrial_complex > 0

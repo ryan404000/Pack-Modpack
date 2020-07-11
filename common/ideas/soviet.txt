@@ -703,7 +703,26 @@ ideas = {
 			}
 
 		}
+
+		SOV_third_five_year_plan = {
+			
+			removal_cost = -1
+			
+			allowed = {
+				always = no # Added via focus
+			}
+
+			allowed_civil_war = {
+				has_government = communism
+			}
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_infrastructure_factor = 0.25
+			}	
 	}
+}
 
 
 	political_advisor = {
@@ -890,6 +909,83 @@ ideas = {
 			traits = { head_of_intelligence }
 
 		}
+		
+		lev_kamenev = {
+			allowed = {
+				original_tag = "SOV"
+			}
+			available =
+			{
+				#NOT = { has_country_flag = purged_kamenev }
+			}
+			traits = { SOV_veteran_communist }
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		grigory_zinoviev = {
+			allowed = {
+				original_tag = "SOV"
+			}
+			available =
+			{
+				#NOT = { has_country_flag = purged_zinoviev }
+			}
+			traits = { SOV_soviet_activist }
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		nikolaj_bucharin = {
+			allowed = {
+				original_tag = "SOV"
+			}
+			available =
+			{
+				#NOT = { has_country_flag = purged_bucharin }
+			}
+			traits = { SOV_comintern_workhorse }
+
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}
+
+		karl_radek = {
+			allowed = {
+				original_tag = "SOV"
+			}
+			available =
+			{
+				#NOT = { has_country_flag = purged_radek }
+			}
+			traits = { economist }
+			do_effect = {
+				NOT = {
+					has_government = communism
+				}
+			}
+			ai_will_do = {
+				factor = 0
+			}
+		}		
 	}
 		
 	army_chief = {
