@@ -768,7 +768,7 @@ ideas = {
 
 		SOV_vyacheslav_molotov = {
 			
-			picture = generic_political_advisor_europe_1
+			picture = vyacheslav_molotov
 			
 			allowed = {
 				original_tag = SOV
@@ -911,6 +911,9 @@ ideas = {
 		}
 		
 		lev_kamenev = {
+			
+			picture = lev_kamenev
+
 			allowed = {
 				original_tag = "SOV"
 			}
@@ -930,6 +933,9 @@ ideas = {
 		}
 
 		grigory_zinoviev = {
+			
+			picture = grigory_zinoviev
+
 			allowed = {
 				original_tag = "SOV"
 			}
@@ -949,6 +955,9 @@ ideas = {
 		}
 
 		nikolaj_bucharin = {
+			
+			picture = nikolaj_bucharin
+
 			allowed = {
 				original_tag = "SOV"
 			}
@@ -969,6 +978,9 @@ ideas = {
 		}
 
 		karl_radek = {
+			
+			picture = karl_radek
+
 			allowed = {
 				original_tag = "SOV"
 			}

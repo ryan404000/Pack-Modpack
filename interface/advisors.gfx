@@ -1,0 +1,28 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_idea_lev_kamenev"
+		texturefile = "gfx/interface/ideas/idea_lev_kamenev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_grigory_zinoviev"
+		texturefile = "gfx/interface/ideas/idea_grigory_zinoviev.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_nikolaj_bucharin"
+		texturefile = "gfx/interface/ideas/idea_nikolaj_bucharin.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_karl_radek"
+		texturefile = "gfx/interface/ideas/idea_karl_radek.dds"
+	}	
+
+	spriteType = {
+		name = "GFX_idea_vyacheslav_molotov"
+		texturefile = "gfx/interface/ideas/idea_vyacheslav_molotov.dds"
+	}		
+
+}	
